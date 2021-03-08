@@ -1,0 +1,33 @@
+﻿<Window x:Class="CookingInstructor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CookingInstructor"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FFC3DC">
+        <StackPanel HorizontalAlignment="Left" Background="#FC5B9B" Height="434" VerticalAlignment="Center" Width="112">
+            <Image Height="115" Width="113" Source="/CookingLogo.png"/>
+            <Button Name="button1" Content="Favorites" Background="#FC5B9B" Height="30"/>
+            <Button Name="button2" Content="My Recipes" Background="#FC5B9B" Height="30"/>
+            <Button Name="button3" Content="My Account" Background="#FC5B9B" Height="30"/>
+            <Button Name="button4" Content="User Guide" Background="#FC5B9B" Height="30"/>
+        </StackPanel>
+        <Border BorderBrush="Gray" BorderThickness="2" Margin="112,0,0,333">
+            <Grid HorizontalAlignment="Center" Height="92" VerticalAlignment="Center" Width="688">
+                <TextBox TextWrapping="Wrap" TextChanged="TextBox_TextChanged" Margin="23,34,391,34"/>
+                <Button Background="#FFFFFF" Margin="297,34,363,34">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/download.png" Width="20" Height="20"/>
+                    </StackPanel>
+                </Button>
+                <Button Background="#FC5B9B" Margin="547,29,48,29" RenderTransformOrigin="-1.01,1.568">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/add.png" Width="91" Height="30"/>
+                    </StackPanel>
+                </Button>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>
