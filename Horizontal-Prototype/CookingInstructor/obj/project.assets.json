@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Andy\\source\\repos\\CookingInstructor\\CookingInstructor\\CookingInstructor.csproj",
+      "projectUniqueName": "C:\\Users\\Andy\\source\\repos\\Horizontal-Prototype\\CookingInstructor\\CookingInstructor.csproj",
       "projectName": "CookingInstructor",
-      "projectPath": "C:\\Users\\Andy\\source\\repos\\CookingInstructor\\CookingInstructor\\CookingInstructor.csproj",
+      "projectPath": "C:\\Users\\Andy\\source\\repos\\Horizontal-Prototype\\CookingInstructor\\CookingInstructor.csproj",
       "packagesPath": "C:\\Users\\Andy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Andy\\source\\repos\\CookingInstructor\\CookingInstructor\\obj\\",
+      "outputPath": "C:\\Users\\Andy\\source\\repos\\Horizontal-Prototype\\CookingInstructor\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Andy\\AppData\\Roaming\\NuGet\\NuGet.Config",
