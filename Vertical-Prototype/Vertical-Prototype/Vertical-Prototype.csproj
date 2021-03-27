@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>Vertical_Prototype</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\AddImage.png" />
+    <None Remove="images\aglioEOlio.png" />
+    <None Remove="images\ChefHat.png" />
+    <None Remove="images\SearchIcon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\AddImage.png" />
+    <Resource Include="images\aglioEOlio.png" />
+    <Resource Include="images\ChefHat.png" />
+    <Resource Include="images\SearchIcon.png" />
+  </ItemGroup>
+
+</Project>

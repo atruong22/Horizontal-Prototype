@@ -1,0 +1,34 @@
+﻿<UserControl x:Class="Vertical_Prototype.RecipeDisplayContent"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Vertical_Prototype"
+             mc:Ignorable="d" 
+             d:DesignHeight="314" d:DesignWidth="683">
+    <Grid Background="#CAF7C9">
+        <ScrollViewer>
+            <Canvas Height="502" Width="662">
+                <Image x:Name="ChefHat" Source="/images/aglioEOlio.png" Margin="20,16,567,215" Height="87" Canvas.Left="8" Canvas.Top="10" Width="96"/>
+                <TextBlock Canvas.Left="202" Canvas.Top="36" Width="54"><Run Language="en-ca" Text="Difficulty:"/></TextBlock>
+                <TextBlock Canvas.Left="159" Canvas.Top="70" Width="97"><Run Language="en-ca" Text="Preparation Time:"/></TextBlock>
+                <!-- Display Difficulty and Prep time based on recipe-->
+                
+                <Button x:Name="recipeDisplayContent_favoriteButton" Width="97" Height="46" Canvas.Left="544" Canvas.Top="21" Content="Add Favorite"/>
+                <TextBlock Canvas.Left="30" Canvas.Top="144" Width="97"><Run Language="en-ca" Text="Ingredients"/><Run Text=":"/></TextBlock>
+                <!-- Dynamic Ingredients-->
+                
+                <TextBlock Canvas.Left="30" Canvas.Top="251" Width="135"><Run Language="en-ca" Text="Preparation Instructions:"/></TextBlock>
+                <!-- Dynamic Prep Instrucitons-->
+                
+                <TextBlock Canvas.Left="493" Canvas.Top="122" Width="81" Text="Nutrition Facts"/>
+                <TextBlock Canvas.Left="436" Canvas.Top="152" Width="90" Height="70" TextAlignment="Right"><Run Language="en-ca" Text="Calories:"/><LineBreak/><Run Language="en-ca" Text="Fat:"/><LineBreak/><Run Language="en-ca" Text="Protein:"/><LineBreak/><Run Language="en-ca" Text="Carbohydrates:"/></TextBlock>
+                <!-- Dynamic Display of Nutrition Facts-->
+
+            </Canvas>
+        </ScrollViewer>
+
+    </Grid>
+
+
+</UserControl>

@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="Vertical_Prototype.LoginContent"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Vertical_Prototype"
+             mc:Ignorable="d" 
+             d:DesignHeight="314" d:DesignWidth="683">
+    <Grid Background="#CAF7C9">
+        <TextBlock Text="Username:" TextWrapping="Wrap" Margin="0,31,361,0" FontWeight="Bold" FontSize="16" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+        <TextBox x:Name="loginContent_usernameField" HorizontalAlignment="Left" Margin="352,28,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="30"/>
+        <TextBlock Text="Password:" TextWrapping="Wrap" Margin="0,74,361,0" FontWeight="Bold" FontSize="16" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+        <PasswordBox x:Name="loginContent_passwordField" Width="120" Margin="352,72,211,211" Height="30"/>
+        <Button x:Name="loginContent_loginButton" Content="Login" HorizontalAlignment="Center" Height="34" VerticalAlignment="Top" Width="141" FontSize="16" FontWeight="Bold" Margin="0,126,0,0"/>
+        <Button x:Name="loginContent_signUpButton" Content="New User? Sign Up Here" HorizontalAlignment="Center" Height="30" Margin="0,183,0,0" VerticalAlignment="Top" Width="243" FontSize="14" FontWeight="Bold" Click="loginContent_signUpButton_Click"/>
+
+
+    </Grid>
+
+</UserControl>

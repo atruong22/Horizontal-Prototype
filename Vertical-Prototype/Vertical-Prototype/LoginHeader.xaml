@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="Vertical_Prototype.LoginHeader"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Vertical_Prototype"
+             mc:Ignorable="d" 
+             d:DesignHeight="90" d:DesignWidth="688">
+    <Grid Background="#CAF7C9">
+        <TextBlock x:Name="loginHeader_title" HorizontalAlignment="Center" Height="70" Text="Login" TextWrapping="Wrap" VerticalAlignment="Center" Width="494" TextAlignment="Center" FontWeight="Bold" FontSize="48"/>
+
+    </Grid>
+</UserControl>
