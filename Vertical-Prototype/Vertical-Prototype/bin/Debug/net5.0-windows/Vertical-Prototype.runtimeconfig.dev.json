@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Wheel-E\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Wheel-E\\.nuget\\packages"
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="AddRecipeContent.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AddRecipeHeader.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="FavoriteRecipesContent.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="HomePageContent.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="LoginContent.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="LoginHeader.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MyRecipesContent.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RecipeDisplayContent.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RecipeDisplaySmall.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RecipeHeader.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SearchBar.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SearchResultsContent.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SignUpContent.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SignUpHeader.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="AddRecipeContent.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AddRecipeHeader.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="FavoriteRecipesContent.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="HomePageContent.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="LoginContent.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="LoginHeader.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MyRecipesContent.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RecipeDisplayContent.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RecipeDisplaySmall.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RecipeHeader.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SearchBar.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SearchResultsContent.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SignUpContent.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SignUpHeader.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

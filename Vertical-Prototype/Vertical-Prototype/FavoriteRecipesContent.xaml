@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="Vertical_Prototype.FavoriteRecipesContent"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Vertical_Prototype"
+             mc:Ignorable="d" 
+             d:DesignHeight="314" d:DesignWidth="683">
+    <Grid Background="#CAF7C9">
+        <Label x:Name="favoriteRecipesContent_Title" Content="Favorite recipes" HorizontalAlignment="Left" Height="40" Margin="10,10,0,0" VerticalAlignment="Top" Width="196" FontSize="22" FontWeight="Bold"/>
+        <ScrollViewer HorizontalAlignment="Left" Height="259" Margin="18,55,0,0" VerticalAlignment="Top" Width="665">
+            <StackPanel Height="1058" Width="626"/>
+        </ScrollViewer>
+    </Grid>
+</UserControl>

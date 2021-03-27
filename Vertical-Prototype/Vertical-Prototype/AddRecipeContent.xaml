@@ -1,0 +1,39 @@
+﻿<UserControl x:Class="Vertical_Prototype.AddRecipeContent"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Vertical_Prototype"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Background="#CAF7C9">
+        <ScrollViewer>
+            <Canvas x:Name="addRecipeContent_difficultyCombo" Height="502" Width="662">
+                
+                <Button x:Name="addRecipeContent_addPhotoButton" Width="108" Background="Transparent" Canvas.Left="20" Canvas.Top="10">
+                    <Image x:Name="ChefHat" Height="94" Width="100" Source="/images/addImage.png"/>
+                </Button>
+
+
+                <TextBlock Canvas.Left="202" Canvas.Top="36" Width="54"><Run Language="en-ca" Text="Difficulty:"/></TextBlock>
+                <TextBlock Canvas.Left="159" Canvas.Top="70" Width="97"><Run Language="en-ca" Text="Preparation Time:"/></TextBlock>
+                <ComboBox x:Name="addRecipeContent_difficultyCombo1" Height="19" Width="70" Canvas.Left="261" Canvas.Top="36" Text="Set Difficulty"/>
+
+                <TextBlock Canvas.Left="30" Canvas.Top="144" Width="97"><Run Language="en-ca" Text="Ingredients"/><Run Text=":"/></TextBlock>
+                <Button x:Name="addRecipeContent_addIngredientButton" Height="32" Width="92" Canvas.Left="30" Canvas.Top="165" Content="Add Ingredient"/>
+
+                <ComboBox x:Name="addRecipeContent_prepTimeCombo" Height="18" Width="70" Canvas.Left="261" Canvas.Top="70" Text="Set Difficulty"/>
+
+                <TextBlock Canvas.Left="30" Canvas.Top="251" Width="135"><Run Language="en-ca" Text="Preparation Instructions:"/></TextBlock>
+                <TextBox x:Name="addRecipeContent_prepInstructionsTextbox" Height="127" Width="612" Canvas.Left="30" Canvas.Top="272" Text="Put your instructions here"/>
+
+                <TextBlock Canvas.Left="493" Canvas.Top="122" Width="81" Text="Nutrition Facts"/>
+                <TextBlock Canvas.Left="436" Canvas.Top="152" Width="90" Height="70" TextAlignment="Right"><Run Language="en-ca" Text="Calories:"/><LineBreak/><Run Language="en-ca" Text="Fat:"/><LineBreak/><Run Language="en-ca" Text="Protein:"/><LineBreak/><Run Language="en-ca" Text="Carbohydrates:"/></TextBlock>
+                <!-- Dynamic Display of Nutrition Facts-->
+
+            </Canvas>
+        </ScrollViewer>
+
+    </Grid>
+</UserControl>
+
