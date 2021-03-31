@@ -20,9 +20,17 @@ namespace Vertical_Prototype
     /// </summary>
     public partial class RecipeDisplaySmall : UserControl
     {
+
         public RecipeDisplaySmall()
         {
             InitializeComponent();
+        }
+
+        public RecipeDisplaySmall(Recipe rcp): this()
+        {
+            InitializeComponent();
+            this.DataContext = rcp;
+            
         }
     }
 }

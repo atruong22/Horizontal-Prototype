@@ -66,12 +66,6 @@ namespace Vertical_Prototype
         {
             Switcher.SwitchTopPanel(_searchBar);
             Switcher.SwitchContentPanel(_myRecipesContent);
-
-            //topPanel.Children.Clear();
-            //topPanel.Children.Add(_searchBar);
-
-            //contentPanel.Children.Clear();
-            //contentPanel.Children.Add(_myRecipesContent);
         }
 
         private void mainWindow_loginButton_Click(object sender, RoutedEventArgs e)
