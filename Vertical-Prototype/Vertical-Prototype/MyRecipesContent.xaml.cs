@@ -15,14 +15,21 @@ using System.Windows.Shapes;
 
 namespace Vertical_Prototype
 {
-    /// <summary>
-    /// Interaction logic for MyRecipesContent.xaml
-    /// </summary>
-    public partial class MyRecipesContent : UserControl
-    {
-        public MyRecipesContent()
-        {
-            InitializeComponent();
-        }
-    }
+	/// <summary>
+	/// Interaction logic for MyRecipesContent.xaml
+	/// </summary>
+	public partial class MyRecipesContent : UserControl
+	{
+		public MyRecipesContent()
+		{
+			InitializeComponent();
+		}
+
+		public MyRecipesContent(Recipe rcp) : this()
+		{
+			InitializeComponent();
+			this.DataContext = rcp;
+
+		}
+	}
 }

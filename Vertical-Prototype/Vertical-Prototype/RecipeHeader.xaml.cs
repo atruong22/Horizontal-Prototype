@@ -24,5 +24,10 @@ namespace Vertical_Prototype
         {
             InitializeComponent();
         }
+        public RecipeHeader(Recipe rcp) : this()
+        {
+            InitializeComponent();
+            this.DataContext = rcp;
+        }
     }
 }

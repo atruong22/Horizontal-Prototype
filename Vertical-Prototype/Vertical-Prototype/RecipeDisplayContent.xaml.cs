@@ -15,21 +15,22 @@ using System.Windows.Shapes;
 
 namespace Vertical_Prototype
 {
-    /// <summary>
-    /// Interaction logic for RecipeDisplayContent.xaml
-    /// </summary>
-    public partial class RecipeDisplayContent : UserControl
-    {
-        public RecipeDisplayContent()
-        {
-            InitializeComponent();
-        }
+	/// <summary>
+	/// Interaction logic for RecipeDisplayContent.xaml
+	/// </summary>
+	public partial class RecipeDisplayContent : UserControl
+	{
+		public RecipeDisplayContent()
+		{
+			InitializeComponent();
+		}
 
-        // To make the page dynamic we will need to pass in a 
-        //public RecipeDisplayContent(Recipe selectedRecipe)
-        //{
-        //  InitializeComponent();
-        //}
+		public RecipeDisplayContent(Recipe rcp) : this()
+		{
+			InitializeComponent();
+			this.DataContext = rcp;
 
-    }
+		}
+
+	}
 }
