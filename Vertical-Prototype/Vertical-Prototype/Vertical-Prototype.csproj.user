@@ -43,6 +43,9 @@
     <Compile Update="SearchResultsContent.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="SignInsuccess.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="SignUpContent.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -88,6 +91,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="SearchResultsContent.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SignInsuccess.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="SignUpContent.xaml">

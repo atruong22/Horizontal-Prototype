@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Wheel-E\\Documents\\Winter2021\\HCI\\PROJECT\\Vertical-Prototype\\Vertical-Prototype\\Vertical-Prototype\\Vertical-Prototype.csproj": {}
+    "C:\\Users\\juwei\\OneDrive\\Desktop\\cpsc481\\Horizontal-Prototype\\Vertical-Prototype\\Vertical-Prototype\\Vertical-Prototype.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Wheel-E\\Documents\\Winter2021\\HCI\\PROJECT\\Vertical-Prototype\\Vertical-Prototype\\Vertical-Prototype\\Vertical-Prototype.csproj": {
+    "C:\\Users\\juwei\\OneDrive\\Desktop\\cpsc481\\Horizontal-Prototype\\Vertical-Prototype\\Vertical-Prototype\\Vertical-Prototype.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Wheel-E\\Documents\\Winter2021\\HCI\\PROJECT\\Vertical-Prototype\\Vertical-Prototype\\Vertical-Prototype\\Vertical-Prototype.csproj",
+        "projectUniqueName": "C:\\Users\\juwei\\OneDrive\\Desktop\\cpsc481\\Horizontal-Prototype\\Vertical-Prototype\\Vertical-Prototype\\Vertical-Prototype.csproj",
         "projectName": "Vertical-Prototype",
-        "projectPath": "C:\\Users\\Wheel-E\\Documents\\Winter2021\\HCI\\PROJECT\\Vertical-Prototype\\Vertical-Prototype\\Vertical-Prototype\\Vertical-Prototype.csproj",
-        "packagesPath": "C:\\Users\\Wheel-E\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Wheel-E\\Documents\\Winter2021\\HCI\\PROJECT\\Vertical-Prototype\\Vertical-Prototype\\Vertical-Prototype\\obj\\",
+        "projectPath": "C:\\Users\\juwei\\OneDrive\\Desktop\\cpsc481\\Horizontal-Prototype\\Vertical-Prototype\\Vertical-Prototype\\Vertical-Prototype.csproj",
+        "packagesPath": "C:\\Users\\juwei\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\juwei\\OneDrive\\Desktop\\cpsc481\\Horizontal-Prototype\\Vertical-Prototype\\Vertical-Prototype\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Wheel-E\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\juwei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
