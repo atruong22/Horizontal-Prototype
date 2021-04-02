@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Wheel-E\\Documents\\Winter2021\\HCI\\PROJECT\\Vertical-Prototype\\Vertical-Prototype\\Vertical-Prototype\\Vertical-Prototype.csproj",
+      "projectUniqueName": "C:\\Users\\Wheel-E\\Documents\\Winter2021\\HCI\\PROJECT\\Horizontal-Prototype\\Vertical-Prototype\\Vertical-Prototype\\Vertical-Prototype.csproj",
       "projectName": "Vertical-Prototype",
-      "projectPath": "C:\\Users\\Wheel-E\\Documents\\Winter2021\\HCI\\PROJECT\\Vertical-Prototype\\Vertical-Prototype\\Vertical-Prototype\\Vertical-Prototype.csproj",
+      "projectPath": "C:\\Users\\Wheel-E\\Documents\\Winter2021\\HCI\\PROJECT\\Horizontal-Prototype\\Vertical-Prototype\\Vertical-Prototype\\Vertical-Prototype.csproj",
       "packagesPath": "C:\\Users\\Wheel-E\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Wheel-E\\Documents\\Winter2021\\HCI\\PROJECT\\Vertical-Prototype\\Vertical-Prototype\\Vertical-Prototype\\obj\\",
+      "outputPath": "C:\\Users\\Wheel-E\\Documents\\Winter2021\\HCI\\PROJECT\\Horizontal-Prototype\\Vertical-Prototype\\Vertical-Prototype\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Wheel-E\\AppData\\Roaming\\NuGet\\NuGet.Config",

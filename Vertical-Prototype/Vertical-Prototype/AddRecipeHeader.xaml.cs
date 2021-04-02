@@ -15,14 +15,24 @@ using System.Windows.Shapes;
 
 namespace Vertical_Prototype
 {
-    /// <summary>
-    /// Interaction logic for AddRecipeHeader.xaml
-    /// </summary>
-    public partial class AddRecipeHeader : UserControl
-    {
-        public AddRecipeHeader()
-        {
-            InitializeComponent();
-        }
-    }
+	/// <summary>
+	/// Interaction logic for AddRecipeHeader.xaml
+	/// </summary>
+	public partial class AddRecipeHeader : UserControl
+	{
+		public Recipe NewRecipe { get; set;}
+
+		public AddRecipeHeader()
+		{
+			InitializeComponent();
+		}
+
+		public AddRecipeHeader(Recipe rcp) : this()
+		{
+			InitializeComponent();
+			this.NewRecipe = rcp;
+			this.DataContext = this.NewRecipe;
+			AddRecipeHeader_recipeName.Text = this.NewRecipe.RecipeName;
+		}
+	}
 }

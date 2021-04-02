@@ -7,7 +7,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="90" d:DesignWidth="688">
     <Grid Background="#CAF7C9">
-        <TextBox x:Name="AddRecipeHeader_recipeName" HorizontalAlignment="Center" Text="Name Your Recipe" TextWrapping="Wrap" VerticalAlignment="Center" Width="564" Height="55" FontSize="16" FontWeight="Bold" TextAlignment="Center"/>
-
+        <TextBox x:Name="AddRecipeHeader_recipeName" HorizontalAlignment="Center" Text="Name Your Recipe" TextWrapping="Wrap" VerticalAlignment="Center" Width="564" Height="55" FontSize="22" FontWeight="Bold" TextAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
     </Grid>
+    
 </UserControl>

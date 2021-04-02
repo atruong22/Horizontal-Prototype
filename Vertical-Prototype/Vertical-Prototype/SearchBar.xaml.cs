@@ -20,15 +20,26 @@ namespace Vertical_Prototype
     /// </summary>
     public partial class SearchBar : UserControl
     {
+
+        public InitRecipes Init { get; set;}
+
         public SearchBar()
         {
             InitializeComponent();
         }
 
+        public SearchBar(InitRecipes initObject) : this()
+        {
+            InitializeComponent();
+            this.Init = initObject;
+        }
+
         private void searchBar_addRecipeButton_Click(object sender, RoutedEventArgs e)
         {
-            Switcher.SwitchTopPanel(new AddRecipeHeader());
-            Switcher.SwitchContentPanel(new AddRecipeContent());
+            Recipe NewRcp = new Recipe();
+            AddRecipeHeader NewHeader = new AddRecipeHeader(NewRcp);
+            Switcher.SwitchTopPanel(NewHeader);
+            Switcher.SwitchContentPanel(new AddRecipeContent(NewRcp, NewHeader, this.Init));
         }
     }
 }

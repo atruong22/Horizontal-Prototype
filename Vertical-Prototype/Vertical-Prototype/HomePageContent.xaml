@@ -11,16 +11,8 @@
 
 		<ScrollViewer HorizontalAlignment="Left" Height="249" Margin="18,55,0,0" VerticalAlignment="Top" Width="665">
 
-			<StackPanel x:Name="outerPanel" Height="400" Margin="0,0,0,0" Width="634">
-				<Button x:Name="panel0Button" Background="Transparent" Click="panel0Button_Click">
-					<StackPanel x:Name="innerPanel0" Height="90" Margin="0,0,0,0" Width="630"/>
-				</Button>
-				<Rectangle Fill="#FF44B44E" Height="10" Width="600" RadiusX="10" RadiusY="10"/>
-				
-				<StackPanel x:Name="innerPanel1" Height="90" Margin="0,0,0,0" Width="630"/>
-				<Rectangle Fill="#FF44B44E" Height="10" Width="600" RadiusX="10" RadiusY="10"/>
-				<StackPanel x:Name="innerPanel2" Height="90" Margin="0,0,0,0" Width="630"/>
-				<Rectangle Fill="#FF44B44E" Height="10" Width="600" RadiusX="10" RadiusY="10"/>
+			<StackPanel x:Name="outerPanel" Height="auto" Margin="0,0,0,0" Width="645">
+				<!-- Inside the stack panel is where the recipes are displayed  -->
 			</StackPanel>
 			
 		</ScrollViewer>

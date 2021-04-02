@@ -1,35 +1,63 @@
 ﻿<UserControl x:Class="Vertical_Prototype.AddRecipeContent"
-             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:Vertical_Prototype"
-             mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
+			 xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+			 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+			 xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+			 xmlns:local="clr-namespace:Vertical_Prototype"
+			 mc:Ignorable="d" 
+			 d:DesignHeight="314" d:DesignWidth="683">
     <Grid Background="#CAF7C9">
-        <ScrollViewer>
-            <Canvas x:Name="addRecipeContent_difficultyCombo" Height="502" Width="662">
-                
+        <ScrollViewer HorizontalAlignment="Left" Height="314"  Width="683">
+            <Canvas Height="502" Width="662">
+
                 <Button x:Name="addRecipeContent_addPhotoButton" Width="108" Background="Transparent" Canvas.Left="20" Canvas.Top="10">
                     <Image x:Name="ChefHat" Height="94" Width="100" Source="/images/addImage.png"/>
                 </Button>
 
+                <Button x:Name="SaveRecipe" Content="Save Recipe" Height="68" Width="149" Canvas.Left="493" Canvas.Top="16" Click="SaveRecipeButton_Click"/>
+
 
                 <TextBlock Canvas.Left="202" Canvas.Top="36" Width="54"><Run Language="en-ca" Text="Difficulty:"/></TextBlock>
                 <TextBlock Canvas.Left="159" Canvas.Top="70" Width="97"><Run Language="en-ca" Text="Preparation Time:"/></TextBlock>
-                <ComboBox x:Name="addRecipeContent_difficultyCombo1" Height="19" Width="70" Canvas.Left="261" Canvas.Top="36" Text="Set Difficulty"/>
+                <ComboBox x:Name="addRecipeContent_difficultyCombo" Height="23" Width="135" Canvas.Left="261" Canvas.Top="33" Text="Set Difficulty">
+                    <ComboBoxItem Content="Easy"></ComboBoxItem>
+                    <ComboBoxItem Content="Medium"></ComboBoxItem>
+                    <ComboBoxItem Content="Hard"></ComboBoxItem>
+                    <ComboBoxItem Content="Expert"></ComboBoxItem>
+                </ComboBox>
 
-                <TextBlock Canvas.Left="30" Canvas.Top="144" Width="97"><Run Language="en-ca" Text="Ingredients"/><Run Text=":"/></TextBlock>
-                <Button x:Name="addRecipeContent_addIngredientButton" Height="32" Width="92" Canvas.Left="30" Canvas.Top="165" Content="Add Ingredient"/>
+                <TextBlock Canvas.Left="30" Canvas.Top="144" Width="97" FontWeight="Bold"><Run Language="en-ca" Text="Ingredients"/><Run Text=":"/></TextBlock>
+                <!-- Dynamic Ingredients-->
+                <ScrollViewer Height="117" Width="333" Canvas.Left="30" Canvas.Top="168">
+                    <StackPanel x:Name="IngredientsPanel" Background="#d4f8d3" Height="auto" Width="auto"></StackPanel>
+                </ScrollViewer>
 
-                <ComboBox x:Name="addRecipeContent_prepTimeCombo" Height="18" Width="70" Canvas.Left="261" Canvas.Top="70" Text="Set Difficulty"/>
+                <Button x:Name="addRecipeContent_addIngredientButton" Height="32" Width="92" Canvas.Left="271" Canvas.Top="128" Content="Add Ingredient"/>
 
-                <TextBlock Canvas.Left="30" Canvas.Top="251" Width="135"><Run Language="en-ca" Text="Preparation Instructions:"/></TextBlock>
-                <TextBox x:Name="addRecipeContent_prepInstructionsTextbox" Height="127" Width="612" Canvas.Left="30" Canvas.Top="272" Text="Put your instructions here"/>
+                <ComboBox x:Name="addRecipeContent_prepTimeCombo" Height="23" Width="135" Canvas.Left="261" Canvas.Top="70" Text="Prep Time">
+                    <ComboBoxItem Content="less than 10 minutes"></ComboBoxItem>
+                    <ComboBoxItem Content="10 - 20  minutes"></ComboBoxItem>
+                    <ComboBoxItem Content="21 - 30 minutes"></ComboBoxItem>
+                    <ComboBoxItem Content="31 - 45 minutes"></ComboBoxItem>
+                    <ComboBoxItem Content="46 minutes - 1 hour"></ComboBoxItem>
+                    <ComboBoxItem Content="Under 2 hours"></ComboBoxItem>
+                    <ComboBoxItem Content="2 hours or more"></ComboBoxItem>
+                </ComboBox>
 
-                <TextBlock Canvas.Left="493" Canvas.Top="122" Width="81" Text="Nutrition Facts"/>
+                <TextBlock Canvas.Left="493" Canvas.Top="122" Width="97" Text="Nutrition Facts" FontWeight="Bold"/>
+                <StackPanel Height="92" Width="188" Canvas.Left="436" Canvas.Top="143" Background="#d4f8d3"/>
                 <TextBlock Canvas.Left="436" Canvas.Top="152" Width="90" Height="70" TextAlignment="Right"><Run Language="en-ca" Text="Calories:"/><LineBreak/><Run Language="en-ca" Text="Fat:"/><LineBreak/><Run Language="en-ca" Text="Protein:"/><LineBreak/><Run Language="en-ca" Text="Carbohydrates:"/></TextBlock>
                 <!-- Dynamic Display of Nutrition Facts-->
+                <TextBlock Canvas.Left="534" Canvas.Top="152" Text="{Binding Calories, Mode=OneWay}" TextWrapping="Wrap" Width="67" Height="16"/>
+                <TextBlock Canvas.Left="534" Canvas.Top="168" Text="{Binding Fat, Mode=OneWay}" TextWrapping="Wrap" Width="67" Height="16"/>
+                <TextBlock Canvas.Left="534" Canvas.Top="184" Text="{Binding Protein, Mode=OneWay}" TextWrapping="Wrap" Width="67" Height="16"/>
+                <TextBlock Canvas.Left="534" Canvas.Top="200" Text="{Binding Carbohydrates, Mode=OneWay}" TextWrapping="Wrap" Width="67" Height="16"/>
+
+                <TextBlock Canvas.Left="30" Canvas.Top="290" Width="148" FontWeight="Bold"><Run Language="en-ca" Text="Preparation Instructions:"/></TextBlock>
+                <!-- Dynamic Prep Instrucitons-->
+                <ScrollViewer Canvas.Left="30" Canvas.Top="311" Height="181" Width="611" Background="#d4f8d3">
+                    <TextBox x:Name="InstructionsTextbox" Text="{Binding Instructions, Mode=OneWay}" TextWrapping="Wrap" AcceptsReturn="True" FontSize="11"/>
+                </ScrollViewer>
 
             </Canvas>
         </ScrollViewer>

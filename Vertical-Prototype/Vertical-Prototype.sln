@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31025.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vertical-Prototype", "Vertical-Prototype\Vertical-Prototype.csproj", "{CB94326F-7463-4B01-A387-632C9EB91F71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vertical-Prototype", "Vertical-Prototype\Vertical-Prototype.csproj", "{CB94326F-7463-4B01-A387-632C9EB91F71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailsTest", "..\..\..\..\..\..\source\repos\EmailsTest\EmailsTest\EmailsTest.csproj", "{F8C00B2D-B6CE-4C58-AFA8-A21E919271F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{CB94326F-7463-4B01-A387-632C9EB91F71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB94326F-7463-4B01-A387-632C9EB91F71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB94326F-7463-4B01-A387-632C9EB91F71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8C00B2D-B6CE-4C58-AFA8-A21E919271F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8C00B2D-B6CE-4C58-AFA8-A21E919271F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8C00B2D-B6CE-4C58-AFA8-A21E919271F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8C00B2D-B6CE-4C58-AFA8-A21E919271F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

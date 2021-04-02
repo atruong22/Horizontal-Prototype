@@ -25,10 +25,23 @@ namespace Vertical_Prototype
 			InitializeComponent();
 		}
 
+		public string customText { get; set; }
+
+
 		public RecipeDisplayContent(Recipe rcp) : this()
 		{
 			InitializeComponent();
 			this.DataContext = rcp;
+
+			foreach ((Ingredient, double) ingredient in rcp.recipeIngredients)
+			{
+				ingredientTextDisplay ingredientDisplay = new ingredientTextDisplay();
+				ingredientDisplay.IngNameTag = ingredient.Item1.IngredientName;
+				ingredientDisplay.IngNumTag = ingredient.Item2.ToString();
+				ingredientDisplay.IngMeasureTag = ingredient.Item1.BaseMeasure;
+
+				this.IngredientsPanel.Children.Add(ingredientDisplay);
+			}
 
 		}
 

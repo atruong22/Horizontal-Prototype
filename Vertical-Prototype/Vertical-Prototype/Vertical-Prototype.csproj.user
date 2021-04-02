@@ -19,10 +19,16 @@
     <Compile Update="HomePageContent.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="ingredientTextDisplay.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="LoginContent.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="LoginHeader.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MyRecipeDisplaySmall.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="MyRecipesContent.xaml.cs">
@@ -63,6 +69,9 @@
     <Page Update="HomePageContent.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="ingredientTextDisplay.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="LoginContent.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -70,6 +79,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MyRecipeDisplaySmall.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MyRecipesContent.xaml">
