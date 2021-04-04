@@ -6,10 +6,16 @@
              xmlns:local="clr-namespace:Vertical_Prototype"
              mc:Ignorable="d" 
              d:DesignHeight="314" d:DesignWidth="683">
+
     <Grid Background="#CAF7C9">
-        <Label x:Name="favoriteRecipesContent_Title" Content="Favorite recipes" HorizontalAlignment="Left" Height="40" Margin="10,10,0,0" VerticalAlignment="Top" Width="196" FontSize="22" FontWeight="Bold"/>
-        <ScrollViewer HorizontalAlignment="Left" Height="259" Margin="18,55,0,0" VerticalAlignment="Top" Width="665">
-            <StackPanel Height="1058" Width="626"/>
+        <Label x:Name="FaveRecipes_Title" Content="Favorite Recipes" HorizontalAlignment="Left" Height="40" Margin="10,10,0,0" VerticalAlignment="Top" Width="196" FontSize="22" FontWeight="Bold"/>
+
+        <ScrollViewer HorizontalAlignment="Left" Height="249" Margin="18,55,0,0" VerticalAlignment="Top" Width="665">
+
+            <StackPanel x:Name="outerPanel" Height="auto" Margin="0,0,0,0" Width="645">
+                <!-- Inside the stack panel is where the recipes are displayed  -->
+            </StackPanel>
+
         </ScrollViewer>
     </Grid>
 </UserControl>

@@ -20,9 +20,37 @@ namespace Vertical_Prototype
     /// </summary>
     public partial class FavoriteRecipesContent : UserControl
     {
+
+        public List<Recipe> FavoriteRecipes { get; set;}
         public FavoriteRecipesContent()
         {
             InitializeComponent();
+        }
+
+        public FavoriteRecipesContent(List<Recipe> recipeList) : this()
+        {
+
+            InitializeComponent();
+
+            this.FavoriteRecipes = recipeList;
+
+            foreach (Recipe rcp in FavoriteRecipes)
+            {
+                Button btn = new Button();
+                btn.Background = Brushes.Transparent;
+
+                RecipeDisplaySmall _displayCard = new RecipeDisplaySmall(rcp);
+
+                btn.Content = _displayCard;
+                btn.Click += (sender, eventArgs) =>
+                {
+                    Switcher.SwitchTopPanel(new RecipeHeader(rcp));
+                    Switcher.SwitchContentPanel(new RecipeDisplayContent(rcp));
+                };
+
+                outerPanel.Children.Add(btn);
+
+            }
         }
     }
 }

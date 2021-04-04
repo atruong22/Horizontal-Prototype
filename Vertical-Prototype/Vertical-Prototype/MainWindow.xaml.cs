@@ -20,28 +20,26 @@ namespace Vertical_Prototype
     /// </summary>
     public partial class MainWindow : Window
     {
+        public InitRecipes Init { get; set; }
+
         //Initialize all the pages
-        SearchBar _searchBar = new SearchBar();
+
         LoginHeader _loginHeader = new LoginHeader();
-        SignUpHeader _signUpHeader = new SignUpHeader();
 
-        HomePageContent _homePageContent = new HomePageContent();
-        FavoriteRecipesContent _favoriteRecipesContent = new FavoriteRecipesContent();
-        MyRecipesContent _myRecipesContent = new MyRecipesContent();
         LoginContent _loginContent = new LoginContent();
-        SignUpContent _signUpContent = new SignUpContent();
-
 
         public MainWindow()
         {
             InitializeComponent();
 
+            this.Init = new InitRecipes();
+
             //Pass the panels to the switcher
             Switcher.topPanel = this.topPanel;
             Switcher.contentPanel = this.contentPanel;
 
-            Switcher.SwitchTopPanel(_searchBar);
-            Switcher.SwitchContentPanel(_homePageContent);
+            Switcher.SwitchTopPanel(new SearchBar(this.Init));
+            Switcher.SwitchContentPanel(new HomePageContent(this.Init.FeaturedRecipes));
         }
 
         public void Navigate(UserControl nextPage)
@@ -51,21 +49,21 @@ namespace Vertical_Prototype
 
         private void mainWindow_homeButton_Click(object sender, RoutedEventArgs e)
         {
-            Switcher.SwitchTopPanel(_searchBar);
-            Switcher.SwitchContentPanel(_homePageContent);
+            Switcher.SwitchTopPanel(new SearchBar(this.Init));
+            Switcher.SwitchContentPanel(new HomePageContent(this.Init.FeaturedRecipes));
         }
 
         private void mainWindow_favoritesButton_Click(object sender, RoutedEventArgs e)
         {
-            Switcher.SwitchTopPanel(_searchBar);
-            Switcher.SwitchContentPanel(_favoriteRecipesContent);
+            Switcher.SwitchTopPanel(new SearchBar(this.Init));
+            Switcher.SwitchContentPanel(new FavoriteRecipesContent(this.Init.FavoriteRecipes));
 
         }
 
         private void mainWindow_myRecipesButton_Click(object sender, RoutedEventArgs e)
         {
-            Switcher.SwitchTopPanel(_searchBar);
-            Switcher.SwitchContentPanel(_myRecipesContent);
+            Switcher.SwitchTopPanel(new SearchBar(this.Init));
+            Switcher.SwitchContentPanel(new MyRecipesContent(this.Init));
         }
 
         private void mainWindow_loginButton_Click(object sender, RoutedEventArgs e)

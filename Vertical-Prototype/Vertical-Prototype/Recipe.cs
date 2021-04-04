@@ -13,6 +13,7 @@ namespace Vertical_Prototype
 		public int Rating { get; set; }
 
 		public int Difficulty { get; set; }
+		//Difficulty from 0-3; easy, medium, hard, expert
 
 		public int Time { get; set; }
 		//In minutes
@@ -44,7 +45,7 @@ namespace Vertical_Prototype
 			{
 				double sum = 0;
 
-				foreach ((Ingredient, double) ingredient in this.recipeIngredients)
+				foreach ( (Ingredient, double) ingredient in this.recipeIngredients )
 				{
 					sum += ingredient.Item1.Calories * ingredient.Item2;
 				}
@@ -102,6 +103,7 @@ namespace Vertical_Prototype
 			this.Difficulty = 3;
 			this.Time = 15;
 			this.Instructions = "Instructions I guess.........";
+			this.recipeIngredients = new List<(Ingredient, double)>();
 		}
 
 		public Recipe(string name, int rate, int diff, string img, int time, List<(Ingredient, double)> ingredients, string instructions)

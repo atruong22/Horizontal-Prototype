@@ -5,8 +5,8 @@
 			 xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
 			 xmlns:local="clr-namespace:Vertical_Prototype"
 			 mc:Ignorable="d" 
-			 d:DesignHeight="90" d:DesignWidth="630">
-    <Canvas HorizontalAlignment="Left" Height="90" Margin="0,0,0,0" VerticalAlignment="Center" Width="630" Background="#CAF7C9">
+			 d:DesignHeight="90" d:DesignWidth="640">
+    <Canvas HorizontalAlignment="Left" Height="90" Margin="0,0,0,0" VerticalAlignment="Center" Width="640" Background="#CAF7C9">
 
         <Image Source="{Binding Image, Mode=OneWay}" Height="80" Canvas.Left="7" Canvas.Top="5" Width="80"/>
         <Label Name="smallRecipeName" Content="{Binding RecipeName, Mode= OneWay}" Canvas.Left="95" Canvas.Top="6" Width="338" Height="35" FontWeight="Bold" FontSize="15"/>
