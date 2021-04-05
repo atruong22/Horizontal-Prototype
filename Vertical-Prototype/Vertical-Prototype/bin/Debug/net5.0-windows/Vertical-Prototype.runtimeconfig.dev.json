@@ -1,8 +1,9 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\Wheel-E\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Wheel-E\\.nuget\\packages"
+      "C:\\Users\\hasee\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\hasee\\.nuget\\packages",
+      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ]
   }
 }
