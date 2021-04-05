@@ -30,5 +30,11 @@ namespace Vertical_Prototype
             Switcher.SwitchTopPanel(new SignUpHeader());
             Switcher.SwitchContentPanel(new SignUpContent());
         }
+
+        private void loginContent_signUpButton_Click1(object sender, RoutedEventArgs e)
+        {
+            Switcher.SwitchTopPanel(new SignInHeader());
+            Switcher.SwitchContentPanel(new SignInContent());
+        }
     }
 }
