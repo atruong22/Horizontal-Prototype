@@ -49,6 +49,12 @@
     <Compile Update="SearchResultsContent.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="SignInContent.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SignInHeader.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="SignUpContent.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -100,6 +106,12 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="SearchResultsContent.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SignInContent.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SignInHeader.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="SignUpContent.xaml">
