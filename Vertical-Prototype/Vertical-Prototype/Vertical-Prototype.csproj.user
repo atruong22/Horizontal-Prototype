@@ -7,6 +7,9 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="AddIngredientPanel.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="AddRecipeContent.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -57,6 +60,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="AddIngredientPanel.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="AddRecipeContent.xaml">
       <SubType>Designer</SubType>
     </Page>

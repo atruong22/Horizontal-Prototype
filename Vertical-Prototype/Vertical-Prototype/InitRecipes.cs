@@ -36,7 +36,7 @@ namespace Vertical_Prototype
             aglioIngredinets.Add((new Ingredient("Salt and Papper", "dash", 0, 0, 0, 0), 1));
 
             string aglioInstructions = "1. Bring a large pot of lightly salted water to boil. Cook the spaghettin in boiling water, stirring ocasionally until cooked through but still firm to bite (roughly 12 minutes). Drain and transfer into a pasta bowl.\n" +
-              "2. Combine garlic and olive oil in a cold skillet. Cook over medium heat to slowly toast the garlic (about 10 minutes). Reduce the heat to medium when olive oil begins to bubble. COok and stir until garlic is golden brown (about 5 minutes).\n" +
+              "2. Combine garlic and olive oil in a cold skillet. Cook over medium heat to slowly toast the garlic (about 10 minutes). Reduce the heat to medium when olive oil begins to bubble. Cook and stir until garlic is golden brown (about 5 minutes).\n" +
               "3. Stir red pepper flakes, black pepper, and salt into the pasta. Pour in olive oil and garlic, and sprinkla on parsley and half of the Parmigiano-Reggiano cheeses; stir until combined.\n" +
               "Serve pasta topped witht eh remaining Parmigiano-Regiano.";
 
@@ -44,6 +44,7 @@ namespace Vertical_Prototype
             this.FeaturedRecipes.Add(new Recipe("Pasta Aglio E Olio", 4, 2, "aglioEOlio.png", 30, aglioIngredinets, aglioInstructions));
             this.FavoriteRecipes.Add(new Recipe("Pasta Aglio E Olio", 4, 2, "aglioEOlio.png", 30, aglioIngredinets, aglioInstructions));
             this.UserRecipes.Add(new Recipe("Pasta Aglio E Olio", 4, 2, "aglioEOlio.png", 30, aglioIngredinets, aglioInstructions));
+
         }
 
 

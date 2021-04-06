@@ -89,5 +89,11 @@ namespace Vertical_Prototype
             this.Init.UserRecipes.Add(this.NewRecipe);      //Add / re-add the recipe to My Recipes
             //At the end show a save message and lave page to not duplicate the recipe
         }
+
+        private void addRecipeContent_addIngredientButton_Click(object sender, RoutedEventArgs e)
+        {
+            AddIngredientStack.Children.Clear();
+            AddIngredientStack.Children.Add( new AddIngredientPanel(this.NewRecipe));
+        }
     }
 }

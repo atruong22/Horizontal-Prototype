@@ -32,7 +32,7 @@
                     <StackPanel x:Name="IngredientsPanel" Background="#d4f8d3" Height="auto" Width="auto"></StackPanel>
                 </ScrollViewer>
 
-                <Button x:Name="addRecipeContent_addIngredientButton" Height="32" Width="92" Canvas.Left="271" Canvas.Top="128" Content="Add Ingredient"/>
+                <Button x:Name="addRecipeContent_addIngredientButton" Height="32" Width="92" Canvas.Left="271" Canvas.Top="128" Content="Add Ingredient" Click="addRecipeContent_addIngredientButton_Click"/>
 
                 <ComboBox x:Name="addRecipeContent_prepTimeCombo" Height="23" Width="135" Canvas.Left="261" Canvas.Top="70" Text="Prep Time">
                     <ComboBoxItem Content="less than 10 minutes"></ComboBoxItem>
@@ -61,6 +61,12 @@
 
             </Canvas>
         </ScrollViewer>
+
+        <StackPanel x:Name="AddIngredientStack" Margin="92,119,91,95">
+            <!-- Width = 500, Height = 100-->
+            <!-- Will be used to display the add ingredient overlay -->
+
+        </StackPanel>
 
     </Grid>
 </UserControl>

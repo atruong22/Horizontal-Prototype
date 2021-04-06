@@ -1,18 +1,61 @@
 ﻿<UserControl x:Class="Vertical_Prototype.SearchBar"
-             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:Vertical_Prototype"
-             mc:Ignorable="d" 
-             d:DesignHeight="90" d:DesignWidth="688">
-    <Grid Background="#CAF7C9">
+			 xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+			 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+			 xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+			 xmlns:local="clr-namespace:Vertical_Prototype" xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+			 mc:Ignorable="d" 
+			 d:DesignHeight="90" d:DesignWidth="688">
+    <Grid x:Name="texty" Background="#CAF7C9">
         <TextBox x:Name="searchBar_textBox" TextWrapping="Wrap" Height="31" Margin="10,20,263,39"/>
-        <Button x:Name="searchBar_searchButton" HorizontalAlignment="Left" Height="31" Margin="425,20,0,0" VerticalAlignment="Top" Width="74">
+        <Button x:Name="searchBar_searchButton" HorizontalAlignment="Left" Height="31" Margin="425,20,0,0" VerticalAlignment="Top" Width="74" Click="searchBar_searchButton_Click">
             <Image x:Name="ChefHat" Source="/images/SearchIcon.png"/>
         </Button>
         <Button x:Name="searchBar_addRecipeButton" Content="Add Recipe" HorizontalAlignment="Left" Height="46" Margin="564,20,0,0" VerticalAlignment="Top" Width="107" Click="searchBar_addRecipeButton_Click"/>
-        <ComboBox x:Name="searchBar_filtersCombo" HorizontalAlignment="Left" Height="24" Margin="10,56,0,0" VerticalAlignment="Top" Width="186"/>
+
+        <Label Content="Difficulty" Margin="0,56,623,6" FontWeight="Bold"/>
+        <xctk:CheckComboBox x:Name="_difficultyCombo" 
+							 HorizontalAlignment="Left" 
+							 VerticalAlignment="Top" 
+							 DisplayMemberPath="Content"
+							 SelectedValue="Content" Height="20" Width="89" Margin="62,60,0,0" Delimiter=", ">
+
+            <ComboBoxItem Content="Easy"/>
+            <ComboBoxItem Content="Medium"/>
+            <ComboBoxItem Content="Hard"/>
+            <ComboBoxItem Content="Expert"/>
+        </xctk:CheckComboBox>
+
+        <Label Content="Cuisune" Margin="156,56,467,6" FontWeight="Bold" RenderTransformOrigin="0.344,0.524"/>
+        <xctk:CheckComboBox x:Name="_cuisuneCombo" 
+							 HorizontalAlignment="Left" 
+							 VerticalAlignment="Top" 
+							 DisplayMemberPath="Content"
+							 SelectedValue="Content" Height="20" Width="122" Margin="209,60,0,0" Delimiter=", ">
+
+            <ComboBoxItem Content="Vegetarian"/>
+            <ComboBoxItem Content="Vegan"/>
+            <ComboBoxItem Content="American"/>
+            <ComboBoxItem Content="Chinese"/>
+            <ComboBoxItem Content="Indian"/>
+            <ComboBoxItem Content="Italian"/>
+            <ComboBoxItem Content="Japanese"/>
+            <ComboBoxItem Content="Mexican"/>
+        </xctk:CheckComboBox>
+
+        <Label Content="Key Ingredient" Margin="331,56,258,6" FontWeight="Bold"/>
+        <xctk:CheckComboBox x:Name="_ingredientsCombo" 
+							 HorizontalAlignment="Left" 
+							 VerticalAlignment="Top" 
+							 DisplayMemberPath="Content"
+							 SelectedValue="Content" Height="20" Width="134" Margin="425,60,0,0" Delimiter=", ">
+
+            <ComboBoxItem Content="Chicken"/>
+            <ComboBoxItem Content="Pork"/>
+            <ComboBoxItem Content="Beef"/>
+            <ComboBoxItem Content="Spaghetti"/>
+        </xctk:CheckComboBox>
 
     </Grid>
+
 </UserControl>

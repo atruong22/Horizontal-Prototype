@@ -41,5 +41,11 @@ namespace Vertical_Prototype
             Switcher.SwitchTopPanel(NewHeader);
             Switcher.SwitchContentPanel(new AddRecipeContent(NewRcp, NewHeader, this.Init));
         }
+
+        private void searchBar_searchButton_Click(object sender, RoutedEventArgs e)
+        {
+            String difficulties = _difficultyCombo.Text;
+            //_textyBoxy.Text = difficulties;
+        }
     }
 }
