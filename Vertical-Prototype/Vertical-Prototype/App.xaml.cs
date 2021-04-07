@@ -11,7 +11,11 @@ namespace Vertical_Prototype
     /// <summary>
     /// Interaction logic for App.xaml
     /// </summary>
+    /// String value1 = "apple";
     public partial class App : Application
     {
+        public int loginstatu = 0;
+        
     }
+   
 }

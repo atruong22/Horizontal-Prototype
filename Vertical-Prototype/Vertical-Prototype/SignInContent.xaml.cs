@@ -24,5 +24,6 @@ namespace Vertical_Prototype
         {
             InitializeComponent();
         }
+        
     }
 }
