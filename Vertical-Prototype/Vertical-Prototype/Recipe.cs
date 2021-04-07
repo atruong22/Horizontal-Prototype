@@ -10,7 +10,7 @@ namespace Vertical_Prototype
 	{
 		public string RecipeName { get; set;}
 	 
-		public int Rating { get; set; }
+		public float Rating { get; set; }
 
 		public int Difficulty { get; set; }
 		//Difficulty from 0-3; easy, medium, hard, expert

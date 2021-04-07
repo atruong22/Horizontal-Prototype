@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vertical-Prototype", "Verti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailsTest", "..\..\..\..\..\..\source\repos\EmailsTest\EmailsTest\EmailsTest.csproj", "{F8C00B2D-B6CE-4C58-AFA8-A21E919271F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rating_WPF", "..\..\..\..\source\repos\RatingControl\Rating_WPF\Rating_WPF.csproj", "{B18D2A42-4F0A-4B89-897D-9F363D8D5BEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F8C00B2D-B6CE-4C58-AFA8-A21E919271F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8C00B2D-B6CE-4C58-AFA8-A21E919271F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8C00B2D-B6CE-4C58-AFA8-A21E919271F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B18D2A42-4F0A-4B89-897D-9F363D8D5BEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B18D2A42-4F0A-4B89-897D-9F363D8D5BEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B18D2A42-4F0A-4B89-897D-9F363D8D5BEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B18D2A42-4F0A-4B89-897D-9F363D8D5BEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

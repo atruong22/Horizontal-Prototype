@@ -24,6 +24,7 @@ namespace Vertical_Prototype
 		{
 			InitializeComponent();
 		}
+		
 
 		public string customText { get; set; }
 
@@ -45,5 +46,10 @@ namespace Vertical_Prototype
 
 		}
 
-	}
+        private void recipeDisplayContent_rateButton_Click(object sender, RoutedEventArgs e)
+        {
+			Rating_WPF.MainWindow ratingView = new Rating_WPF.MainWindow();
+			ratingView.Show();
+        }
+    }
 }

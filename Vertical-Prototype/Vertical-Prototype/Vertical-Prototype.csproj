@@ -10,15 +10,55 @@
   <ItemGroup>
     <None Remove="images\AddImage.png" />
     <None Remove="images\aglioEOlio.png" />
+    <None Remove="images\bananasmoothie.png" />
     <None Remove="images\ChefHat.png" />
+    <None Remove="images\coffee.png" />
+    <None Remove="images\cookiesandcream.png" />
+    <None Remove="images\creamybacon.png" />
+    <None Remove="images\cremebrulee.png" />
+    <None Remove="images\eggtoast.png" />
+    <None Remove="images\frittata.png" />
+    <None Remove="images\green pan.png" />
+    <None Remove="images\grilledcheese.png" />
+    <None Remove="images\pumpkinbread.png" />
+    <None Remove="images\quesadilla.png" />
+    <None Remove="images\ratatouille.png" />
     <None Remove="images\SearchIcon.png" />
+    <None Remove="images\spaghetti.png" />
+    <None Remove="images\strawberrysorbet.png" />
+    <None Remove="images\teriyaki.png" />
+    <None Remove="images\white pan.png" />
+    <None Remove="images\white star.png" />
+    <None Remove="images\yellow star.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\source\repos\RatingControl\Rating_WPF\Rating_WPF.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="images\AddImage.png" />
     <Resource Include="images\aglioEOlio.png" />
+    <Resource Include="images\bananasmoothie.png" />
     <Resource Include="images\ChefHat.png" />
+    <Resource Include="images\coffee.png" />
+    <Resource Include="images\cookiesandcream.png" />
+    <Resource Include="images\creamybacon.png" />
+    <Resource Include="images\cremebrulee.png" />
+    <Resource Include="images\eggtoast.png" />
+    <Resource Include="images\frittata.png" />
+    <Resource Include="images\green pan.png" />
+    <Resource Include="images\grilledcheese.png" />
+    <Resource Include="images\pumpkinbread.png" />
+    <Resource Include="images\quesadilla.png" />
+    <Resource Include="images\ratatouille.png" />
     <Resource Include="images\SearchIcon.png" />
+    <Resource Include="images\spaghetti.png" />
+    <Resource Include="images\strawberrysorbet.png" />
+    <Resource Include="images\teriyaki.png" />
+    <Resource Include="images\white pan.png" />
+    <Resource Include="images\white star.png" />
+    <Resource Include="images\yellow star.png" />
   </ItemGroup>
 
 </Project>

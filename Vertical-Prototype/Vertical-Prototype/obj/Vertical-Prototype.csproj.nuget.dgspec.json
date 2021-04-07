@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hasee\\Desktop\\cpsc481\\Horizontal-Prototype\\Vertical-Prototype\\Vertical-Prototype\\Vertical-Prototype.csproj": {}
+    "C:\\Users\\Andy\\Documents\\GitHub\\Horizontal-Prototype\\Vertical-Prototype\\Vertical-Prototype\\Vertical-Prototype.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hasee\\Desktop\\cpsc481\\Horizontal-Prototype\\Vertical-Prototype\\Vertical-Prototype\\Vertical-Prototype.csproj": {
+    "C:\\Users\\Andy\\Documents\\GitHub\\Horizontal-Prototype\\Vertical-Prototype\\Vertical-Prototype\\Vertical-Prototype.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hasee\\Desktop\\cpsc481\\Horizontal-Prototype\\Vertical-Prototype\\Vertical-Prototype\\Vertical-Prototype.csproj",
+        "projectUniqueName": "C:\\Users\\Andy\\Documents\\GitHub\\Horizontal-Prototype\\Vertical-Prototype\\Vertical-Prototype\\Vertical-Prototype.csproj",
         "projectName": "Vertical-Prototype",
-        "projectPath": "C:\\Users\\hasee\\Desktop\\cpsc481\\Horizontal-Prototype\\Vertical-Prototype\\Vertical-Prototype\\Vertical-Prototype.csproj",
-        "packagesPath": "C:\\Users\\hasee\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hasee\\Desktop\\cpsc481\\Horizontal-Prototype\\Vertical-Prototype\\Vertical-Prototype\\obj\\",
+        "projectPath": "C:\\Users\\Andy\\Documents\\GitHub\\Horizontal-Prototype\\Vertical-Prototype\\Vertical-Prototype\\Vertical-Prototype.csproj",
+        "packagesPath": "C:\\Users\\Andy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Andy\\Documents\\GitHub\\Horizontal-Prototype\\Vertical-Prototype\\Vertical-Prototype\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\hasee\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Andy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -31,7 +27,11 @@
         "frameworks": {
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Andy\\source\\repos\\RatingControl\\Rating_WPF\\Rating_WPF.csproj": {
+                "projectPath": "C:\\Users\\Andy\\source\\repos\\RatingControl\\Rating_WPF\\Rating_WPF.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -61,8 +61,18 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "C:\\Users\\Andy\\source\\repos\\RatingControl\\Rating_WPF\\Rating_WPF.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Andy\\source\\repos\\RatingControl\\Rating_WPF\\Rating_WPF.csproj",
+        "projectName": "Rating_WPF",
+        "projectPath": "C:\\Users\\Andy\\source\\repos\\RatingControl\\Rating_WPF\\Rating_WPF.csproj"
+      },
+      "frameworks": {
+        "net40-client": {}
       }
     }
   }
