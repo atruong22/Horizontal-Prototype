@@ -33,8 +33,18 @@ namespace Vertical_Prototype
 
         private void loginContent_signUpButton_Click1(object sender, RoutedEventArgs e)
         {
-            Switcher.SwitchTopPanel(new SignInHeader());
-            Switcher.SwitchContentPanel(new SignInContent());
+            userInformation userInformation = new userInformation();
+            if(userInformation.LogInstatus == 1)
+            {
+                Switcher.SwitchTopPanel(new SignUpHeader());
+                Switcher.SwitchContentPanel(new SignUpContent());
+            }
+            else
+            {
+                Switcher.SwitchTopPanel(new SignInHeader());
+                Switcher.SwitchContentPanel(new SignInContent());
+            }
+            
         }
     }
 }

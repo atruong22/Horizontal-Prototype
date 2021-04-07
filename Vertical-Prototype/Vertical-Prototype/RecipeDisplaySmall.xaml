@@ -10,7 +10,7 @@
 
         <Image Source="{Binding Image, Mode=OneWay}" Height="80" Canvas.Left="7" Canvas.Top="5" Width="80"/>
         <Label Name="smallRecipeName" Content="{Binding RecipeName, Mode= OneWay}" Canvas.Left="95" Canvas.Top="6" Width="338" Height="35" FontWeight="Bold" FontSize="15"/>
-
+        
         <Label Content="Rating:" Canvas.Left="468" Canvas.Top="6"/>
         <Label Content="Difficulty:" Canvas.Left="146" Canvas.Top="45"/>
         <Label Content="Time to Make:" Canvas.Left="382" Canvas.Top="45"/>
