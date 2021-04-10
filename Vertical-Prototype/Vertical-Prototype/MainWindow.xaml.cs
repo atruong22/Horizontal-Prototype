@@ -89,8 +89,8 @@ namespace Vertical_Prototype
         {
             if (globalvariable.loginstatus == 0)
             {
-                Switcher.SwitchTopPanel(_loginHeader);
-                Switcher.SwitchContentPanel(_loginContent);
+                Switcher.SwitchTopPanel(new LoginHeader());
+                Switcher.SwitchContentPanel(new LoginContent());
             }
             else
             {
