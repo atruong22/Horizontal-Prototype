@@ -219,10 +219,10 @@ namespace Vertical_Prototype
             "8. You can also make various flavor by using different ice cream flavors. If you are using flavored ice cream, use 1 egg instead of 1 yolk.";
 
             //public Recipe(string name, int rate, int diff, string img, int time, List<(Ingredient, double)> ingredients, string instructions)
-            this.AllRecipes.Add(new Recipe("Creme Brulee", 4, 3, "cremebrulee.png", 70, cremeBruleeIngredients, cremeBruleeInstructions));
-            this.AllRecipes.Add(new Recipe("Creamy Bacon Hasselback Chicken", 4, 4, "creamybacon.png", 60, creamyBaconChickenIngredients, creamyBaconChickenInstructions));
+            //this.AllRecipes.Add(new Recipe("Creme Brulee", 4, 3, "cremebrulee.png", 70, cremeBruleeIngredients, cremeBruleeInstructions));
+            //this.AllRecipes.Add(new Recipe("Creamy Bacon Hasselback Chicken", 4, 4, "creamybacon.png", 60, creamyBaconChickenIngredients, creamyBaconChickenInstructions));
             this.FeaturedRecipes.Add(new Recipe("Pumpkin Bread", 4, 3, "pumpkinbread.png", 70, pumpkinBreadIngredients, pumpkinBreadInstructions));
-            this.FeaturedRecipes.Add(new Recipe("Banana Oat Smoothie", 2, 2, "bananasmoothie.png", 15, bananaSmoothieIngredients, bananaSmoothieInstructions));
+            /*this.FeaturedRecipes.Add(new Recipe("Banana Oat Smoothie", 2, 2, "bananasmoothie.png", 15, bananaSmoothieIngredients, bananaSmoothieInstructions));
             this.FeaturedRecipes.Add(new Recipe("Cookies and Cream", 5, 2,"cookiesandcream.png",135, cookiesAndCreamIngredients,cookiesAndCreamInstructions));
             this.FeaturedRecipes.Add(new Recipe("Grilled Cheese", 4, 2, "grilledcheese.png", 10, grilledCheeseIngredients, grilledCheeseInstructions));
             this.FavoriteRecipes.Add(new Recipe("Spaghetti with Garlic and Oil Pasta", 3, 3, "spaghetti.png", 30, spaghettiIngredients, spaghettiInstructions));
@@ -235,7 +235,7 @@ namespace Vertical_Prototype
             this.FavoriteRecipes.Add(new Recipe("Spinach Frittata", 5, 2, "frittata.png", 25, frittataIngredients, frittataInstructions));
             this.FavoriteRecipes.Add(new Recipe("Teriyaki Chicken", 3, 1, "teriyaki.png", 27, teriyakiIngredients, teriyakiInstructions));
             this.FavoriteRecipes.Add(new Recipe("Bean And Cheese Toaster Quesadilla", 4, 2, "quesadilla.png", 25, quesadillaIngredients, quessadillaInstructions));
-            this.UserRecipes.Add(new Recipe("Pasta Aglio E Olio", 4, 2, "aglioEOlio.png", 30, aglioIngredinets, aglioInstructions));
+            this.UserRecipes.Add(new Recipe("Pasta Aglio E Olio", 4, 2, "aglioEOlio.png", 30, aglioIngredinets, aglioInstructions));*/
         }
 
 

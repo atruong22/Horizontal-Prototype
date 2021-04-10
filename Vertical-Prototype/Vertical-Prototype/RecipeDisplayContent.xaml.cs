@@ -20,6 +20,7 @@ namespace Vertical_Prototype
 	/// </summary>
 	public partial class RecipeDisplayContent : UserControl
 	{
+		public Recipe NewRate{get;set;}
 		public RecipeDisplayContent()
 		{
 			InitializeComponent();
@@ -29,11 +30,11 @@ namespace Vertical_Prototype
 		public string customText { get; set; }
 
 
-		public RecipeDisplayContent(Recipe rcp) : this()
+		public RecipeDisplayContent(Recipe rcp) //: //this()
 		{
 			InitializeComponent();
 			this.DataContext = rcp;
-
+			this.NewRate = rcp;
 			foreach ((Ingredient, double) ingredient in rcp.recipeIngredients)
 			{
 				ingredientTextDisplay ingredientDisplay = new ingredientTextDisplay();
@@ -49,7 +50,11 @@ namespace Vertical_Prototype
         private void recipeDisplayContent_rateButton_Click(object sender, RoutedEventArgs e)
         {
 			Rating_WPF.MainWindow ratingView = new Rating_WPF.MainWindow();
-			ratingView.Show();
-        }
+			ratingView.ShowDialog();
+			this.NewRate.AddNewRating(ratingView.GetRate());
+			this.DataContext = null;
+			this.DataContext = NewRate;
+			
+		}
     }
 }

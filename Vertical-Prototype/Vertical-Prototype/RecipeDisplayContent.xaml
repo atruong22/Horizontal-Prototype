@@ -17,8 +17,8 @@
                 <!-- Display Difficulty and Prep time based on recipe-->
                 <TextBlock Canvas.Left="261" Canvas.Top="65" Text="{Binding Difficulty, Mode= OneWay}" TextWrapping="Wrap" Width="70" Height="16"/>
                 <TextBlock Canvas.Left="261" Canvas.Top="109" Text="{Binding Time, Mode=OneWay}" TextWrapping="Wrap" Width="70" Height="16"/>
-                <TextBlock Canvas.Left="261" Canvas.Top="10" Text="{Binding Rating, Mode= OneWay}" TextWrapping="Wrap" Width="70" Height="16"/>
-                <TextBlock Canvas.Left="274" Canvas.Top="10" TextWrapping="Wrap"><Run Text="/5"/><LineBreak/><Run/></TextBlock>
+                <TextBlock Canvas.Left="261" Canvas.Top="10" Text="{Binding PrintRating, Mode= OneWay}" TextWrapping="Wrap" Width="70" Height="16"/>
+                <TextBlock Canvas.Left="280" Canvas.Top="10" TextWrapping="Wrap"><Run Text="/5"/><LineBreak/><Run/></TextBlock>
                 <Button x:Name="recipeDisplayContent_favoriteButton" Width="97" Height="46" Canvas.Left="544" Canvas.Top="21" Content="Add Favorite"/>
                 <Button x:Name="recipeDisplayContent_rateButton" Width="76" Height="24" Canvas.Left="215" Canvas.Top="33" Content="Rate this recipe?" FontSize="10" Click="recipeDisplayContent_rateButton_Click"/>
                 <TextBlock Canvas.Left="30" Canvas.Top="144" Width="97" FontWeight="Bold"><Run Language="en-ca" Text="Ingredients"/><Run Text=":"/></TextBlock>
