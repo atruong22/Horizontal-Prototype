@@ -222,6 +222,7 @@ namespace Vertical_Prototype
             //this.AllRecipes.Add(new Recipe("Creme Brulee", 4, 3, "cremebrulee.png", 70, cremeBruleeIngredients, cremeBruleeInstructions));
             //this.AllRecipes.Add(new Recipe("Creamy Bacon Hasselback Chicken", 4, 4, "creamybacon.png", 60, creamyBaconChickenIngredients, creamyBaconChickenInstructions));
             this.FeaturedRecipes.Add(new Recipe("Pumpkin Bread", 4, 3, "pumpkinbread.png", 70, pumpkinBreadIngredients, pumpkinBreadInstructions));
+            this.FeaturedRecipes.Add(new Recipe("Ratatouille", 3, 3, "ratatouille.png", 60, ratatouilleIngredients, ratatouilleInstructions));
             /*this.FeaturedRecipes.Add(new Recipe("Banana Oat Smoothie", 2, 2, "bananasmoothie.png", 15, bananaSmoothieIngredients, bananaSmoothieInstructions));
             this.FeaturedRecipes.Add(new Recipe("Cookies and Cream", 5, 2,"cookiesandcream.png",135, cookiesAndCreamIngredients,cookiesAndCreamInstructions));
             this.FeaturedRecipes.Add(new Recipe("Grilled Cheese", 4, 2, "grilledcheese.png", 10, grilledCheeseIngredients, grilledCheeseInstructions));
@@ -229,7 +230,7 @@ namespace Vertical_Prototype
             this.FavoriteRecipes.Add(new Recipe("Cheesy Egg Toast", 4, 2, "eggtoast.png", 30, eggToastIngredients, eggToastInstructions));
             this.FeaturedRecipes.Add(new Recipe("Strawberry Sorbet", 4, 2, "strawberrysorbet.png", 15, strawberrySorbetIngredients, strawberrySorbetInstructions));
             this.FeaturedRecipes.Add(new Recipe("Whipped Coffee", 3, 1, "coffee.png", 15, coffeeIngredients, coffeeInstructions));
-            this.FeaturedRecipes.Add(new Recipe("Ratatouille", 3, 3, "ratatouille.png", 60, ratatouilleIngredients, ratatouilleInstructions));
+            
             this.AllRecipes.Add(new Recipe("Pasta Aglio E Olio", 4, 2, "aglioEOlio.png", 30, aglioIngredinets, aglioInstructions));
             this.FeaturedRecipes.Add(new Recipe("Pasta Aglio E Olio", 4, 2, "aglioEOlio.png", 30, aglioIngredinets, aglioInstructions));
             this.FavoriteRecipes.Add(new Recipe("Spinach Frittata", 5, 2, "frittata.png", 25, frittataIngredients, frittataInstructions));

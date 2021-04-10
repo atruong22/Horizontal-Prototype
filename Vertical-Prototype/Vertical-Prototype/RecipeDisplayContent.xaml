@@ -18,6 +18,7 @@
                 <TextBlock Canvas.Left="261" Canvas.Top="65" Text="{Binding Difficulty, Mode= OneWay}" TextWrapping="Wrap" Width="70" Height="16"/>
                 <TextBlock Canvas.Left="261" Canvas.Top="109" Text="{Binding Time, Mode=OneWay}" TextWrapping="Wrap" Width="70" Height="16"/>
                 <TextBlock Canvas.Left="261" Canvas.Top="10" Text="{Binding PrintRating, Mode= OneWay}" TextWrapping="Wrap" Width="70" Height="16"/>
+                <TextBlock Canvas.Left="344" Canvas.Top="10" Text="{Binding NumRating, Mode= OneWay}" TextWrapping="Wrap" Width="70" Height="16"/>
                 <TextBlock Canvas.Left="280" Canvas.Top="10" TextWrapping="Wrap"><Run Text="/5"/><LineBreak/><Run/></TextBlock>
                 <Button x:Name="recipeDisplayContent_favoriteButton" Width="97" Height="46" Canvas.Left="544" Canvas.Top="21" Content="Add Favorite"/>
                 <Button x:Name="recipeDisplayContent_rateButton" Width="76" Height="24" Canvas.Left="215" Canvas.Top="33" Content="Rate this recipe?" FontSize="10" Click="recipeDisplayContent_rateButton_Click"/>
@@ -42,6 +43,7 @@
                 <ScrollViewer Canvas.Left="30" Canvas.Top="311" Height="181" Width="611" Background="#d4f8d3">
                     <TextBlock Text="{Binding Instructions, Mode=OneWay}" TextWrapping="Wrap"  FontSize="11"/>
                 </ScrollViewer>
+                <TextBlock Canvas.Left="358" Canvas.Top="10" Width="46" Text="rating(s)"/>
 
 
 

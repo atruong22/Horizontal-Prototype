@@ -12,14 +12,14 @@
         <Label Name="smallRecipeName" Content="{Binding RecipeName, Mode= OneWay}" Canvas.Left="95" Canvas.Top="6" Width="338" Height="35" FontWeight="Bold" FontSize="15"/>
         <Label Name="smallRecipeDifficulty" Content="{Binding Difficulty, Mode= OneWay}" Canvas.Left="205" Canvas.Top="45" Width="54" Height="35"  FontSize="15"/>
         <Label Name="smallRecipeTime" Content="{Binding Time, Mode= OneWay}" Canvas.Left="468" Canvas.Top="45" Width="54" Height="35"  FontSize="15"/>
-        <Label Name="smallRecipeRating" Content="{Binding Rating, Mode= OneWay}" Canvas.Left="515" Canvas.Top="1" Width="54" Height="35"  FontSize="15"/>
+        <Label Name="smallRecipeRating" Content="{Binding PrintRating, Mode= OneWay}" Canvas.Left="515" Canvas.Top="1" Width="54" Height="35"  FontSize="15"/>
 
 
         <Label Content="Rating:" Canvas.Left="468" Canvas.Top="6"/>
         <Label Content="Difficulty:" Canvas.Left="146" Canvas.Top="45"/>
         <Label Content="Time to Make:" Canvas.Left="382" Canvas.Top="45"/>
         <Label Content="min." FontSize='15' Canvas.Left="491" Canvas.Top="45"/>
-        <Label Content="/5" FontSize='15' Canvas.Left="523" Canvas.Top="1"/>
+        <Label Content="/5" FontSize='15' Canvas.Left="539" Canvas.Top="1"/>
 
     </Canvas>
 

@@ -30,7 +30,7 @@ namespace Vertical_Prototype
 		public string customText { get; set; }
 
 
-		public RecipeDisplayContent(Recipe rcp) //: //this()
+		public RecipeDisplayContent(Recipe rcp) : this()
 		{
 			InitializeComponent();
 			this.DataContext = rcp;
