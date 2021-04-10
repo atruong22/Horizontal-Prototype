@@ -7,9 +7,10 @@
              mc:Ignorable="d" 
              d:DesignHeight="314" d:DesignWidth="683">
     <Grid Background="#CAF7C9">
-        <TextBlock Text="Username:" TextWrapping="Wrap" Margin="0,31,361,0" FontWeight="Bold" FontSize="16" HorizontalAlignment="Right" VerticalAlignment="Top"/>
-        <TextBlock Text="Password:" TextWrapping="Wrap" Margin="0,74,361,0" FontWeight="Bold" FontSize="16" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+        <TextBlock Text="Username:"  TextWrapping="Wrap" Margin="0,31,361,0" FontWeight="Bold" FontSize="16" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+        <TextBlock Text="Password:" Name="Username" TextWrapping="Wrap" Margin="0,31,238,0" FontWeight="Bold" FontSize="16" HorizontalAlignment="Right" VerticalAlignment="Top" RenderTransformOrigin="1.931,-1.473"/>
         <TextBlock Text="Confirm Password:" TextWrapping="Wrap" Margin="0,122,361,0" FontWeight="Bold" FontSize="16" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+        <Button Content="Log out" HorizontalAlignment="Left" Margin="311,217,0,0" VerticalAlignment="Top" Click="Button_Click" Width="134" Height="33"/>
 
 
 

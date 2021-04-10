@@ -16,21 +16,13 @@ using System.Windows.Shapes;
 namespace Vertical_Prototype
 {
     /// <summary>
-    /// Interaction logic for SignInContent.xaml
+    /// Interaction logic for LoginInTips.xaml
     /// </summary>
-    public partial class SignInContent : UserControl
+    public partial class LoginInTips : UserControl
     {
-        public SignInContent()
+        public LoginInTips()
         {
             InitializeComponent();
-            Username.Text = globalvariable.currentLoginUsername;
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            globalvariable.loginstatus = 0;
-            Switcher.SwitchTopPanel(new LoginHeader());
-            Switcher.SwitchContentPanel(new LoginContent());
         }
     }
 }

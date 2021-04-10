@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 C:\Users\hasee\Desktop\cpsc481\Horizontal-Prototype\Vertical-Prototype\Vertical-Prototype\App.xaml
-19-2056486938
+20-321108463
 
-26548723017
+28-1308884778
 193-1891726104
-AddRecipeContent.xaml;AddRecipeHeader.xaml;FavoriteRecipesContent.xaml;HomePageContent.xaml;ingredientTextDisplay.xaml;LoginContent.xaml;LoginHeader.xaml;MainWindow.xaml;MyRecipeDisplaySmall.xaml;MyRecipesContent.xaml;RecipeDisplayContent.xaml;RecipeDisplaySmall.xaml;RecipeHeader.xaml;SearchBar.xaml;SearchResultsContent.xaml;SignInContent.xaml;SignInHeader.xaml;SignUpContent.xaml;SignUpHeader.xaml;
+AddRecipeContent.xaml;AddRecipeHeader.xaml;FavoriteRecipesContent.xaml;HomePageContent.xaml;ingredientTextDisplay.xaml;LoginContent.xaml;LoginHeader.xaml;LoginInTips.xaml;MainWindow.xaml;MyRecipeDisplaySmall.xaml;MyRecipesContent.xaml;RecipeDisplayContent.xaml;RecipeDisplaySmall.xaml;RecipeHeader.xaml;SearchBar.xaml;SearchResultsContent.xaml;SignInContent.xaml;SignInHeader.xaml;SignUpContent.xaml;SignUpHeader.xaml;
 
 False
 

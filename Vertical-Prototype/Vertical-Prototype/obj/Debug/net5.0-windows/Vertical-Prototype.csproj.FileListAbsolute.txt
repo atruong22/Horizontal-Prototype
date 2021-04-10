@@ -160,3 +160,5 @@ C:\Users\hasee\Desktop\cpsc481\Horizontal-Prototype\Vertical-Prototype\Vertical-
 C:\Users\hasee\Desktop\cpsc481\Horizontal-Prototype\Vertical-Prototype\Vertical-Prototype\obj\Debug\net5.0-windows\SignInHeader.g.cs
 C:\Users\hasee\Desktop\cpsc481\Horizontal-Prototype\Vertical-Prototype\Vertical-Prototype\obj\Debug\net5.0-windows\SignInContent.baml
 C:\Users\hasee\Desktop\cpsc481\Horizontal-Prototype\Vertical-Prototype\Vertical-Prototype\obj\Debug\net5.0-windows\SignInHeader.baml
+C:\Users\hasee\Desktop\cpsc481\Horizontal-Prototype\Vertical-Prototype\Vertical-Prototype\obj\Debug\net5.0-windows\LoginInTips.g.cs
+C:\Users\hasee\Desktop\cpsc481\Horizontal-Prototype\Vertical-Prototype\Vertical-Prototype\obj\Debug\net5.0-windows\LoginInTips.baml
