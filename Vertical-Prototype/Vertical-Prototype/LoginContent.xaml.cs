@@ -34,7 +34,7 @@ namespace Vertical_Prototype
         private void loginContent_signUpButton_Click1(object sender, RoutedEventArgs e)
         {
             userInformation userInformation = new userInformation();
-            if(userInformation.LogInstatus == 1)
+            if(userInformation.LogInStatus == 1)
             {
                 Switcher.SwitchTopPanel(new SignUpHeader());
                 Switcher.SwitchContentPanel(new SignUpContent());
