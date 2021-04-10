@@ -14,7 +14,7 @@ namespace Vertical_Prototype
         public Recipe NewRecipe { get; set; }
         public InitRecipes Init { get; set; }
 
-        public int LogInstatus { get; set; }
+        public int LogInStatus { get; set; }
 
         public userInformation(string name, string password, Recipe NewRecipe, InitRecipes Init)
         {
@@ -22,7 +22,7 @@ namespace Vertical_Prototype
             this.password = password;
             this.NewRecipe = NewRecipe;
             this.Init = Init;
-            this.LogInstatus = 1;
+            this.LogInStatus = 1;
             
         }
 
@@ -30,7 +30,7 @@ namespace Vertical_Prototype
         {
             this.UserName = "nobody";
             this.password = "123456";
-            this.LogInstatus = 0;
+            this.LogInStatus = 0;
         }
 
     }
