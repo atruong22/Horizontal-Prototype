@@ -28,9 +28,11 @@ namespace Vertical_Prototype
 
         LoginContent _loginContent = new LoginContent();
 
+
         public MainWindow()
         {
             InitializeComponent();
+            globalvariable.loginstatus = 0;
 
             this.Init = new InitRecipes();
 
@@ -56,20 +58,45 @@ namespace Vertical_Prototype
         private void mainWindow_favoritesButton_Click(object sender, RoutedEventArgs e)
         {
             Switcher.SwitchTopPanel(new SearchBar(this.Init));
-            Switcher.SwitchContentPanel(new FavoriteRecipesContent(this.Init.FavoriteRecipes));
+            if (globalvariable.loginstatus == 0)
+            {
+                Switcher.SwitchContentPanel(new LoginInTips());
+            }
+            else
+            {
+                Switcher.SwitchContentPanel(new FavoriteRecipesContent(this.Init.FavoriteRecipes));
+            }
+            
 
         }
 
         private void mainWindow_myRecipesButton_Click(object sender, RoutedEventArgs e)
-        {
+        {   
+
             Switcher.SwitchTopPanel(new SearchBar(this.Init));
-            Switcher.SwitchContentPanel(new MyRecipesContent(this.Init));
+            if (globalvariable.loginstatus == 0)
+            {
+                Switcher.SwitchContentPanel(new LoginInTips()); 
+            }
+            else
+            {
+                Switcher.SwitchContentPanel(new MyRecipesContent(this.Init));
+            }
+                
         }
 
         private void mainWindow_loginButton_Click(object sender, RoutedEventArgs e)
         {
-            Switcher.SwitchTopPanel(_loginHeader);
-            Switcher.SwitchContentPanel(_loginContent);
+            if (globalvariable.loginstatus == 0)
+            {
+                Switcher.SwitchTopPanel(_loginHeader);
+                Switcher.SwitchContentPanel(_loginContent);
+            }
+            else
+            {
+                Switcher.SwitchTopPanel(new SignInHeader());
+                Switcher.SwitchContentPanel(new SignInContent());
+            }
         }
     }
 }

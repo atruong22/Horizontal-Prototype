@@ -28,6 +28,9 @@
     <Compile Update="LoginHeader.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="LoginInTips.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="MyRecipeDisplaySmall.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -82,6 +85,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="LoginHeader.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="LoginInTips.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">

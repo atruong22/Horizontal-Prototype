@@ -23,27 +23,35 @@ namespace Vertical_Prototype
         public LoginContent()
         {
             InitializeComponent();
+            wrongpasswordtips.Visibility = Visibility.Hidden;
         }
 
         private void loginContent_signUpButton_Click(object sender, RoutedEventArgs e)
         {
+            
             Switcher.SwitchTopPanel(new SignUpHeader());
             Switcher.SwitchContentPanel(new SignUpContent());
         }
 
         private void loginContent_signUpButton_Click1(object sender, RoutedEventArgs e)
         {
-            userInformation userInformation = new userInformation();
-            if(userInformation.LogInStatus == 1)
+            string loginUsername = loginContent_usernameField.Text;
+            string loginpassword = loginContent_passwordField.Password.ToString();
+
+            if (loginUsername != globalvariable.currentLoginUsername || loginpassword != globalvariable.currentLoginUserPassword)
             {
-                Switcher.SwitchTopPanel(new SignUpHeader());
-                Switcher.SwitchContentPanel(new SignUpContent());
+                wrongpasswordtips.Visibility = Visibility.Visible;
             }
             else
             {
+                globalvariable.loginstatus = 1;
+                globalvariable.currentLoginUsername = loginUsername;
+                globalvariable.currentLoginUserPassword = loginpassword;
                 Switcher.SwitchTopPanel(new SignInHeader());
                 Switcher.SwitchContentPanel(new SignInContent());
             }
+
+            
             
         }
     }
