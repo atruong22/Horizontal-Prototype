@@ -23,17 +23,20 @@ namespace Vertical_Prototype
 
         public List<Recipe> FeaturedRecipes { get; set; }
 
+        public InitRecipes Init { get; set; }
+
         public HomePageContent()
         {
             InitializeComponent();
         }
 
-        public HomePageContent(List<Recipe> recipeList) : this()
+        public HomePageContent(InitRecipes init, List<Recipe> recipeList) : this()
         {
 
             InitializeComponent();
 
             this.FeaturedRecipes = recipeList;
+            this.Init = init;
 
 
             foreach (Recipe rcp in FeaturedRecipes){
@@ -46,7 +49,7 @@ namespace Vertical_Prototype
                 btn.Click += (sender, eventArgs) =>
                     {
                         Switcher.SwitchTopPanel(new RecipeHeader(rcp));
-                        Switcher.SwitchContentPanel(new RecipeDisplayContent(rcp));
+                        Switcher.SwitchContentPanel(new RecipeDisplayContent(this.Init, rcp));
                     };
 
                 outerPanel.Children.Add(btn);

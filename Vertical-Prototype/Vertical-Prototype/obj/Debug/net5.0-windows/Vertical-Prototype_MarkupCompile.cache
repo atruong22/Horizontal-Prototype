@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 C:\Users\Wheel-E\Documents\Winter2021\HCI\PROJECT\Horizontal-Prototype\Vertical-Prototype\Vertical-Prototype\App.xaml
-18125679965
+19-31753619
 
-24-652508849
+28-506908112
 198-1860663159
-AddIngredientPanel.xaml;AddRecipeContent.xaml;AddRecipeHeader.xaml;FavoriteRecipesContent.xaml;HomePageContent.xaml;ingredientTextDisplay.xaml;LoginContent.xaml;LoginHeader.xaml;MainWindow.xaml;MyRecipeDisplaySmall.xaml;MyRecipesContent.xaml;RecipeDisplayContent.xaml;RecipeDisplaySmall.xaml;RecipeHeader.xaml;SearchBar.xaml;SearchResultsContent.xaml;SignUpContent.xaml;SignUpHeader.xaml;
+AddIngredientPanel.xaml;AddRecipeContent.xaml;AddRecipeHeader.xaml;FavoriteRecipesContent.xaml;HomePageContent.xaml;ingredientTextDisplay.xaml;ingredientTextDisplayEdit.xaml;LoginContent.xaml;LoginHeader.xaml;MainWindow.xaml;MyRecipeDisplaySmall.xaml;MyRecipesContent.xaml;RecipeDisplayContent.xaml;RecipeDisplaySmall.xaml;RecipeHeader.xaml;SearchBar.xaml;SearchResultsContent.xaml;SignUpContent.xaml;SignUpHeader.xaml;
 
 False
 

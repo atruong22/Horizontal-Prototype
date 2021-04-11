@@ -7,7 +7,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="314" d:DesignWidth="683">
     <Grid Background="#CAF7C9">
-        <Label x:Name="SearchResults_Title" Content="Featured Dishes" HorizontalAlignment="Left" Height="40" Margin="10,10,0,0" VerticalAlignment="Top" Width="196" FontSize="22" FontWeight="Bold"/>
+        <Label x:Name="SearchResults_Title" Content="Search Results" HorizontalAlignment="Left" Height="40" Margin="10,10,0,0" VerticalAlignment="Top" Width="196" FontSize="22" FontWeight="Bold"/>
 
         <ScrollViewer HorizontalAlignment="Left" Height="249" Margin="18,55,0,0" VerticalAlignment="Top" Width="665">
 

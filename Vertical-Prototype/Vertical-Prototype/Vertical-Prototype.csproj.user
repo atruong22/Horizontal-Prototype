@@ -25,6 +25,9 @@
     <Compile Update="ingredientTextDisplay.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="ingredientTextDisplayEdit.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="LoginContent.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -76,6 +79,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ingredientTextDisplay.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ingredientTextDisplayEdit.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="LoginContent.xaml">

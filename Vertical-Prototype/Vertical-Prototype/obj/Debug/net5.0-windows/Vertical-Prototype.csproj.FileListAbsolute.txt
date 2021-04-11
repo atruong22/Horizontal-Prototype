@@ -55,7 +55,6 @@ C:\Users\Wheel-E\Documents\Winter2021\HCI\PROJECT\Horizontal-Prototype\Vertical-
 C:\Users\Wheel-E\Documents\Winter2021\HCI\PROJECT\Horizontal-Prototype\Vertical-Prototype\Vertical-Prototype\bin\Debug\net5.0-windows\Vertical-Prototype.dll
 C:\Users\Wheel-E\Documents\Winter2021\HCI\PROJECT\Horizontal-Prototype\Vertical-Prototype\Vertical-Prototype\bin\Debug\net5.0-windows\ref\Vertical-Prototype.dll
 C:\Users\Wheel-E\Documents\Winter2021\HCI\PROJECT\Horizontal-Prototype\Vertical-Prototype\Vertical-Prototype\bin\Debug\net5.0-windows\Vertical-Prototype.pdb
-C:\Users\Wheel-E\Documents\Winter2021\HCI\PROJECT\Horizontal-Prototype\Vertical-Prototype\Vertical-Prototype\obj\Debug\net5.0-windows\Vertical-Prototype.csprojAssemblyReference.cache
 C:\Users\Wheel-E\Documents\Winter2021\HCI\PROJECT\Horizontal-Prototype\Vertical-Prototype\Vertical-Prototype\obj\Debug\net5.0-windows\MainWindow.baml
 C:\Users\Wheel-E\Documents\Winter2021\HCI\PROJECT\Horizontal-Prototype\Vertical-Prototype\Vertical-Prototype\obj\Debug\net5.0-windows\AddRecipeContent.g.cs
 C:\Users\Wheel-E\Documents\Winter2021\HCI\PROJECT\Horizontal-Prototype\Vertical-Prototype\Vertical-Prototype\obj\Debug\net5.0-windows\AddRecipeHeader.g.cs
@@ -122,3 +121,7 @@ C:\Users\Wheel-E\Documents\Winter2021\HCI\PROJECT\Horizontal-Prototype\Vertical-
 C:\Users\Wheel-E\Documents\Winter2021\HCI\PROJECT\Horizontal-Prototype\Vertical-Prototype\Vertical-Prototype\obj\Debug\net5.0-windows\Vertical-Prototype.csproj.CopyComplete
 C:\Users\Wheel-E\Documents\Winter2021\HCI\PROJECT\Horizontal-Prototype\Vertical-Prototype\Vertical-Prototype\obj\Debug\net5.0-windows\AddIngredientPanel.g.cs
 C:\Users\Wheel-E\Documents\Winter2021\HCI\PROJECT\Horizontal-Prototype\Vertical-Prototype\Vertical-Prototype\obj\Debug\net5.0-windows\AddIngredientPanel.baml
+C:\Users\Wheel-E\Documents\Winter2021\HCI\PROJECT\Horizontal-Prototype\Vertical-Prototype\Vertical-Prototype\obj\Debug\net5.0-windows\Vertical-Prototype.csprojAssemblyReference.cache
+C:\Users\Wheel-E\Documents\Winter2021\HCI\PROJECT\Horizontal-Prototype\Vertical-Prototype\Vertical-Prototype\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\Wheel-E\Documents\Winter2021\HCI\PROJECT\Horizontal-Prototype\Vertical-Prototype\Vertical-Prototype\obj\Debug\net5.0-windows\ingredientTextDisplayEdit.g.cs
+C:\Users\Wheel-E\Documents\Winter2021\HCI\PROJECT\Horizontal-Prototype\Vertical-Prototype\Vertical-Prototype\obj\Debug\net5.0-windows\ingredientTextDisplayEdit.baml

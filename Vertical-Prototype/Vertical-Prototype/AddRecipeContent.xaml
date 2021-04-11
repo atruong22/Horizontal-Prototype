@@ -10,11 +10,13 @@
         <ScrollViewer HorizontalAlignment="Left" Height="314"  Width="683">
             <Canvas Height="502" Width="662">
 
-                <Button x:Name="addRecipeContent_addPhotoButton" Width="108" Background="Transparent" Canvas.Left="20" Canvas.Top="10">
-                    <Image x:Name="ChefHat" Height="94" Width="100" Source="/images/addImage.png"/>
+                <Button x:Name="addRecipeContent_addPhotoButton" Width="108" Background="Transparent" BorderBrush="Transparent" Canvas.Left="20" Canvas.Top="10" Click="addRecipeContent_addPhotoButton_Click">
+                    <Image x:Name="_recipePhoto" Height="94" Width="100" Source="/images/addImage.png"/>
                 </Button>
 
-                <Button x:Name="SaveRecipe" Content="Save Recipe" Height="68" Width="149" Canvas.Left="493" Canvas.Top="16" Click="SaveRecipeButton_Click"/>
+                <Button x:Name="SaveRecipe" Height="60" Width="180" Canvas.Left="461" Canvas.Top="26" Click="SaveRecipeButton_Click" Background="Transparent" BorderBrush="Transparent">
+                    <Image x:Name="_saveButtonImage" Source="/images/saveButton.png"/>
+                </Button>
 
 
                 <TextBlock Canvas.Left="202" Canvas.Top="36" Width="54"><Run Language="en-ca" Text="Difficulty:"/></TextBlock>
@@ -35,13 +37,13 @@
                 <Button x:Name="addRecipeContent_addIngredientButton" Height="32" Width="92" Canvas.Left="271" Canvas.Top="128" Content="Add Ingredient" Click="addRecipeContent_addIngredientButton_Click"/>
 
                 <ComboBox x:Name="addRecipeContent_prepTimeCombo" Height="23" Width="135" Canvas.Left="261" Canvas.Top="70" Text="Prep Time">
-                    <ComboBoxItem Content="less than 10 minutes"></ComboBoxItem>
-                    <ComboBoxItem Content="10 - 20  minutes"></ComboBoxItem>
+                    <ComboBoxItem Content="10 minutes or less"></ComboBoxItem>
+                    <ComboBoxItem Content="11 - 20  minutes"></ComboBoxItem>
                     <ComboBoxItem Content="21 - 30 minutes"></ComboBoxItem>
                     <ComboBoxItem Content="31 - 45 minutes"></ComboBoxItem>
                     <ComboBoxItem Content="46 minutes - 1 hour"></ComboBoxItem>
-                    <ComboBoxItem Content="Under 2 hours"></ComboBoxItem>
-                    <ComboBoxItem Content="2 hours or more"></ComboBoxItem>
+                    <ComboBoxItem Content="2 hours or less"></ComboBoxItem>
+                    <ComboBoxItem Content="Over 2 hours"></ComboBoxItem>
                 </ComboBox>
 
                 <TextBlock Canvas.Left="493" Canvas.Top="122" Width="97" Text="Nutrition Facts" FontWeight="Bold"/>
@@ -62,7 +64,7 @@
             </Canvas>
         </ScrollViewer>
 
-        <StackPanel x:Name="AddIngredientStack" Margin="92,119,91,95">
+        <StackPanel x:Name="AddIngredientStack" Margin="92,119,91,41" Height="150">
             <!-- Width = 500, Height = 100-->
             <!-- Will be used to display the add ingredient overlay -->
 

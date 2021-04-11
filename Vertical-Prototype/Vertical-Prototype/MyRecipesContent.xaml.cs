@@ -48,7 +48,7 @@ namespace Vertical_Prototype
                 btn.Click += (sender, eventArgs) =>
                 {
                     Switcher.SwitchTopPanel(new RecipeHeader(rcp));
-                    Switcher.SwitchContentPanel(new RecipeDisplayContent(rcp));
+                    Switcher.SwitchContentPanel(new RecipeDisplayContent(this.Init, rcp));
                 };
 
                 outerPanel.Children.Add(btn);

@@ -39,7 +39,7 @@ namespace Vertical_Prototype
             Switcher.contentPanel = this.contentPanel;
 
             Switcher.SwitchTopPanel(new SearchBar(this.Init));
-            Switcher.SwitchContentPanel(new HomePageContent(this.Init.FeaturedRecipes));
+            Switcher.SwitchContentPanel(new HomePageContent(this.Init, this.Init.FeaturedRecipes));
         }
 
         public void Navigate(UserControl nextPage)
@@ -50,13 +50,13 @@ namespace Vertical_Prototype
         private void mainWindow_homeButton_Click(object sender, RoutedEventArgs e)
         {
             Switcher.SwitchTopPanel(new SearchBar(this.Init));
-            Switcher.SwitchContentPanel(new HomePageContent(this.Init.FeaturedRecipes));
+            Switcher.SwitchContentPanel(new HomePageContent(this.Init, this.Init.FeaturedRecipes));
         }
 
         private void mainWindow_favoritesButton_Click(object sender, RoutedEventArgs e)
         {
             Switcher.SwitchTopPanel(new SearchBar(this.Init));
-            Switcher.SwitchContentPanel(new FavoriteRecipesContent(this.Init.FavoriteRecipes));
+            Switcher.SwitchContentPanel(new FavoriteRecipesContent(this.Init, this.Init.FavoriteRecipes));
 
         }
 

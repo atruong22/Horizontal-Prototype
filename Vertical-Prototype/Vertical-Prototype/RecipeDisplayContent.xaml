@@ -7,44 +7,46 @@
 			 mc:Ignorable="d" 
 			 d:DesignHeight="314" d:DesignWidth="683">
 
-	<Grid Background="#CAF7C9">
-		<ScrollViewer HorizontalAlignment="Left" Height="314"  Width="683">
-			<Canvas Height="502" Width="662">
-				<Image Source="{Binding Image, Mode=OneWay}" Margin="20,16,567,215" Height="87" Canvas.Left="8" Canvas.Top="10" Width="96"/>
-				<TextBlock Canvas.Left="202" Canvas.Top="36" Width="54"><Run Language="en-ca" Text="Difficulty:"/></TextBlock>
-				<TextBlock Canvas.Left="159" Canvas.Top="70" Width="97"><Run Language="en-ca" Text="Preparation Time:"/></TextBlock>
-				<!-- Display Difficulty and Prep time based on recipe-->
-				<TextBlock Canvas.Left="261" Canvas.Top="36" Text="{Binding Difficulty, Mode= OneWay}" TextWrapping="Wrap" Width="70" Height="16"/>
-				<TextBlock Canvas.Left="261" Canvas.Top="70" Text="{Binding Time, Mode=OneWay}" TextWrapping="Wrap" Width="70" Height="16"/>
+    <Grid Background="#CAF7C9">
+        <ScrollViewer HorizontalAlignment="Left" Height="314"  Width="683">
+            <Canvas Height="502" Width="662">
+                <Image Source="{Binding Image, Mode=OneWay}" Margin="20,16,567,215" Height="87" Canvas.Left="8" Canvas.Top="10" Width="96"/>
+                <TextBlock Canvas.Left="202" Canvas.Top="36" Width="54"><Run Language="en-ca" Text="Difficulty:"/></TextBlock>
+                <TextBlock Canvas.Left="159" Canvas.Top="70" Width="97"><Run Language="en-ca" Text="Preparation Time:"/></TextBlock>
+                <!-- Display Difficulty and Prep time based on recipe-->
+                <TextBlock Canvas.Left="261" Canvas.Top="36" Text="{Binding Difficulty, Mode= OneWay}" TextWrapping="Wrap" Width="70" Height="16"/>
+                <Label x:Name="_prepTimeLabel" Content="45 minutes or less."  Canvas.Left="256" Canvas.Top="65" Width="120" Height="29"/>
 
 
-				<Button x:Name="recipeDisplayContent_favoriteButton" Width="97" Height="46" Canvas.Left="544" Canvas.Top="21" Content="Add Favorite"/>
-				<TextBlock Canvas.Left="30" Canvas.Top="144" Width="97" FontWeight="Bold"><Run Language="en-ca" Text="Ingredients"/><Run Text=":"/></TextBlock>
-				<!-- Dynamic Ingredients-->
-				<ScrollViewer Height="117" Width="333" Canvas.Left="30" Canvas.Top="168">
-					<StackPanel x:Name="IngredientsPanel" Background="#d4f8d3" Height="auto" Width="auto"></StackPanel>
-				</ScrollViewer>
+                <Button x:Name="recipeDisplayContent_favoriteButton" Width="116" Height="42" Canvas.Left="510" Canvas.Top="28" Background="Transparent">
+                    <Image x:Name="_favoriteImage" Source="/images/favoriteButton.png" Height="41" Width="112"/>
+                </Button>
+                <TextBlock Canvas.Left="30" Canvas.Top="144" Width="97" FontWeight="Bold"><Run Language="en-ca" Text="Ingredients"/><Run Text=":"/></TextBlock>
+                <!-- Dynamic Ingredients-->
+                <ScrollViewer Height="117" Width="333" Canvas.Left="30" Canvas.Top="168">
+                    <StackPanel x:Name="IngredientsPanel" Background="#d4f8d3" Height="auto" Width="auto"></StackPanel>
+                </ScrollViewer>
 
 
-				<TextBlock Canvas.Left="493" Canvas.Top="122" Width="97" Text="Nutrition Facts" FontWeight="Bold"/>
-				<StackPanel Height="92" Width="188" Canvas.Left="436" Canvas.Top="143" Background="#d4f8d3"/>
-				<TextBlock Canvas.Left="436" Canvas.Top="152" Width="90" Height="70" TextAlignment="Right"><Run Language="en-ca" Text="Calories:"/><LineBreak/><Run Language="en-ca" Text="Fat:"/><LineBreak/><Run Language="en-ca" Text="Protein:"/><LineBreak/><Run Language="en-ca" Text="Carbohydrates:"/></TextBlock>
-				<!-- Dynamic Display of Nutrition Facts-->
-				<TextBlock Canvas.Left="534" Canvas.Top="152" Text="{Binding Calories, Mode=OneWay}" TextWrapping="Wrap" Width="67" Height="16"/>
-				<TextBlock Canvas.Left="534" Canvas.Top="168" Text="{Binding Fat, Mode=OneWay}" TextWrapping="Wrap" Width="67" Height="16"/>
-				<TextBlock Canvas.Left="534" Canvas.Top="184" Text="{Binding Protein, Mode=OneWay}" TextWrapping="Wrap" Width="67" Height="16"/>
-				<TextBlock Canvas.Left="534" Canvas.Top="200" Text="{Binding Carbohydrates, Mode=OneWay}" TextWrapping="Wrap" Width="67" Height="16"/>
+                <TextBlock Canvas.Left="493" Canvas.Top="122" Width="97" Text="Nutrition Facts" FontWeight="Bold"/>
+                <StackPanel Height="92" Width="188" Canvas.Left="436" Canvas.Top="143" Background="#d4f8d3"/>
+                <TextBlock Canvas.Left="436" Canvas.Top="152" Width="90" Height="70" TextAlignment="Right"><Run Language="en-ca" Text="Calories:"/><LineBreak/><Run Language="en-ca" Text="Fat:"/><LineBreak/><Run Language="en-ca" Text="Protein:"/><LineBreak/><Run Language="en-ca" Text="Carbohydrates:"/></TextBlock>
+                <!-- Dynamic Display of Nutrition Facts-->
+                <TextBlock Canvas.Left="534" Canvas.Top="152" Text="{Binding Calories, Mode=OneWay}" TextWrapping="Wrap" Width="67" Height="16"/>
+                <TextBlock Canvas.Left="534" Canvas.Top="168" Text="{Binding Fat, Mode=OneWay}" TextWrapping="Wrap" Width="67" Height="16"/>
+                <TextBlock Canvas.Left="534" Canvas.Top="184" Text="{Binding Protein, Mode=OneWay}" TextWrapping="Wrap" Width="67" Height="16"/>
+                <TextBlock Canvas.Left="534" Canvas.Top="200" Text="{Binding Carbohydrates, Mode=OneWay}" TextWrapping="Wrap" Width="67" Height="16"/>
 
-				<TextBlock Canvas.Left="30" Canvas.Top="290" Width="148" FontWeight="Bold"><Run Language="en-ca" Text="Preparation Instructions:"/></TextBlock>
-				<!-- Dynamic Prep Instrucitons-->
+                <TextBlock Canvas.Left="30" Canvas.Top="290" Width="148" FontWeight="Bold"><Run Language="en-ca" Text="Preparation Instructions:"/></TextBlock>
+                <!-- Dynamic Prep Instrucitons-->
                 <ScrollViewer Canvas.Left="30" Canvas.Top="311" Height="181" Width="611" Background="#d4f8d3">
                     <TextBlock Text="{Binding Instructions, Mode=OneWay}" TextWrapping="Wrap"  FontSize="11"/>
                 </ScrollViewer>
 
-			</Canvas>
-		</ScrollViewer>
+            </Canvas>
+        </ScrollViewer>
 
-	</Grid>
+    </Grid>
 
 
 </UserControl>

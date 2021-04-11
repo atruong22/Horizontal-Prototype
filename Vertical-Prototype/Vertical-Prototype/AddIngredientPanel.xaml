@@ -5,7 +5,7 @@
 			 xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
 			 xmlns:local="clr-namespace:Vertical_Prototype"
 			 mc:Ignorable="d" 
-			 d:DesignHeight="100" d:DesignWidth="500">
+			 d:DesignHeight="150" d:DesignWidth="500">
     <Grid Background="#6de56b">
         <Grid Background="#CAF7C9" Margin="10,10,10,10" RenderTransformOrigin="0.5,0.5">
             <Grid.RenderTransform>
@@ -17,30 +17,28 @@
                 </TransformGroup>
             </Grid.RenderTransform>
 
-            <Label Content="Ingredient:" FontWeight="Bold" Margin="7,26,395,27"/>
+            <Label Content="Ingredient:" FontWeight="Bold" Margin="-1,-3,403,56"/>
+            <TextBox x:Name="searchTextbox" Margin="70,2,285,109" KeyDown="searchTextbox_KeyDown" />
 
-            <ComboBox HorizontalAlignment="Left" Height="20" Margin="84,31,0,0" VerticalAlignment="Top" Width="95">
-                <ComboBoxItem Content="Chicken"/>
-                <ComboBoxItem Content="Pork"/>
-                <ComboBoxItem Content="Beef"/>
-                <ComboBoxItem Content="Spaghetti"/>
-            </ComboBox>
+            <ScrollViewer Margin="5,25,286,3" Height="100">
+                <StackPanel x:Name="listOfIngredientsStack">
 
-            <Label Content="Serving Size = " FontWeight="Normal" Margin="197,9,205,44" FontSize="11"/>
-            <Label Content="1 Cup" FontWeight="Normal" Margin="276,9,126,44" FontSize="11"/>
+                </StackPanel>
+            </ScrollViewer>
 
-            <Label Content="Number of Servings: " FontWeight="Normal" Margin="197,36,172,17" FontSize="11"/>
-            <TextBox x:Name="numServingsTextbox" Margin="306,0,127,19" Height="20" VerticalAlignment="Bottom" Text=""/>
+            <Label Content="Serving Size:" FontWeight="Normal" Margin="235,23,171,81" FontSize="11"/>
+            <Label x:Name="servingSizeLabel" Content="" FontWeight="Normal" Margin="306,24,86,81" FontSize="11"/>
 
-            <Button  x:Name="SaveIngredient" Margin="374,27,7,7" Content="Add Ingredient" Click="SaveIngredient_Click">
-                
-            </Button>
+            <Label Content="Number of Servings: " FontWeight="Normal" Margin="197,54,172,48" FontSize="11"/>
+            <TextBox x:Name="numServingsTextbox" Margin="308,0,125,51" Height="20" VerticalAlignment="Bottom" Text=""/>
 
-            <Button x:Name="CloseWindow" Margin="451,4,7,57" Content="X" Click="CloseWindow_Click">
+            <Button  x:Name="SaveIngredient" Margin="372,58,9,21" Content="Add Ingredient" Click="SaveIngredient_Click">
 
             </Button>
 
+            <Button x:Name="CloseWindow" Margin="451,4,7,105" Content="X" Click="CloseWindow_Click">
 
+            </Button>
         </Grid>
     </Grid>
 </UserControl>
