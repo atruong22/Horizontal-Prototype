@@ -20,10 +20,12 @@ namespace Vertical_Prototype
 	/// </summary>
 	public partial class RecipeDisplayContent : UserControl
 	{
+		public Recipe NewRate{get;set;}
 		public RecipeDisplayContent()
 		{
 			InitializeComponent();
 		}
+
 
 		public string customText { get; set; }
 
@@ -32,7 +34,8 @@ namespace Vertical_Prototype
 		{
 			InitializeComponent();
 			this.DataContext = rcp;
-
+			this.NewRate = rcp;
+			
 			if (init.FavoriteRecipes.Contains(rcp))
             {
 				_favoriteImage.Source = new BitmapImage( new Uri("/images/unfavoriteButton.png", UriKind.Relative));
@@ -65,5 +68,14 @@ namespace Vertical_Prototype
 
 		}
 
-	}
+        private void recipeDisplayContent_rateButton_Click(object sender, RoutedEventArgs e)
+        {
+			Rating_WPF.MainWindow ratingView = new Rating_WPF.MainWindow();
+			ratingView.ShowDialog();
+			this.NewRate.AddNewRating(ratingView.GetRate());
+			this.DataContext = null;
+			this.DataContext = NewRate;
+
+		}
+    }
 }

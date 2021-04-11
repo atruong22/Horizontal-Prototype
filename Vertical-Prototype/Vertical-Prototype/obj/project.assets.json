@@ -2,121 +2,43 @@
   "version": 3,
   "targets": {
     "net5.0-windows7.0": {
-      "Extended.Wpf.Toolkit/4.0.2": {
-        "type": "package",
+      "Rating_WPF/1.0.0": {
+        "type": "project",
         "compile": {
-          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll": {},
-          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll": {},
-          "lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll": {},
-          "lib/net40/Xceed.Wpf.AvalonDock.dll": {},
-          "lib/net40/Xceed.Wpf.Toolkit.dll": {}
+          "bin/placeholder/Rating_WPF.dll": {}
         },
         "runtime": {
-          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll": {},
-          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll": {},
-          "lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll": {},
-          "lib/net40/Xceed.Wpf.AvalonDock.dll": {},
-          "lib/net40/Xceed.Wpf.Toolkit.dll": {}
-        },
-        "resource": {
-          "lib/net40/cs-CZ/Xceed.Wpf.AvalonDock.resources.dll": {
-            "locale": "cs-CZ"
-          },
-          "lib/net40/de/Xceed.Wpf.AvalonDock.resources.dll": {
-            "locale": "de"
-          },
-          "lib/net40/es/Xceed.Wpf.AvalonDock.resources.dll": {
-            "locale": "es"
-          },
-          "lib/net40/fr/Xceed.Wpf.AvalonDock.resources.dll": {
-            "locale": "fr"
-          },
-          "lib/net40/hu/Xceed.Wpf.AvalonDock.resources.dll": {
-            "locale": "hu"
-          },
-          "lib/net40/it/Xceed.Wpf.AvalonDock.resources.dll": {
-            "locale": "it"
-          },
-          "lib/net40/ja-JP/Xceed.Wpf.AvalonDock.resources.dll": {
-            "locale": "ja-JP"
-          },
-          "lib/net40/pt-BR/Xceed.Wpf.AvalonDock.resources.dll": {
-            "locale": "pt-BR"
-          },
-          "lib/net40/ro/Xceed.Wpf.AvalonDock.resources.dll": {
-            "locale": "ro"
-          },
-          "lib/net40/ru/Xceed.Wpf.AvalonDock.resources.dll": {
-            "locale": "ru"
-          },
-          "lib/net40/sv/Xceed.Wpf.AvalonDock.resources.dll": {
-            "locale": "sv"
-          },
-          "lib/net40/zh-Hans/Xceed.Wpf.AvalonDock.resources.dll": {
-            "locale": "zh-Hans"
-          }
+          "bin/placeholder/Rating_WPF.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Extended.Wpf.Toolkit/4.0.2": {
-      "sha512": "GH6WXqrNUl+EQtxNGuB0ccJF1K7af0o0oq8J5mMW30AcNLeq+wpryjxONRhmaEJP5vX3KYI/bcQo7qKAp9uTLg==",
-      "type": "package",
-      "path": "extended.wpf.toolkit/4.0.2",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.txt",
-        "Xceed_Logo_Retina-400x400.png",
-        "extended.wpf.toolkit.4.0.2.nupkg.sha512",
-        "extended.wpf.toolkit.nuspec",
-        "lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll",
-        "lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll",
-        "lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
-        "lib/net40/Xceed.Wpf.AvalonDock.dll",
-        "lib/net40/Xceed.Wpf.Toolkit.dll",
-        "lib/net40/cs-CZ/Xceed.Wpf.AvalonDock.resources.dll",
-        "lib/net40/de/Xceed.Wpf.AvalonDock.resources.dll",
-        "lib/net40/es/Xceed.Wpf.AvalonDock.resources.dll",
-        "lib/net40/fr/Xceed.Wpf.AvalonDock.resources.dll",
-        "lib/net40/hu/Xceed.Wpf.AvalonDock.resources.dll",
-        "lib/net40/it/Xceed.Wpf.AvalonDock.resources.dll",
-        "lib/net40/ja-JP/Xceed.Wpf.AvalonDock.resources.dll",
-        "lib/net40/pt-BR/Xceed.Wpf.AvalonDock.resources.dll",
-        "lib/net40/ro/Xceed.Wpf.AvalonDock.resources.dll",
-        "lib/net40/ru/Xceed.Wpf.AvalonDock.resources.dll",
-        "lib/net40/sv/Xceed.Wpf.AvalonDock.resources.dll",
-        "lib/net40/zh-Hans/Xceed.Wpf.AvalonDock.resources.dll",
-        "tools/install.ps1"
-      ]
+    "Rating_WPF/1.0.0": {
+      "type": "project",
+      "path": "../../../../../source/repos/RatingControl/Rating_WPF/Rating_WPF.csproj",
+      "msbuildProject": "../../../../../source/repos/RatingControl/Rating_WPF/Rating_WPF.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0-windows7.0": [
-      "Extended.Wpf.Toolkit >= 4.0.2"
+      "Rating_WPF >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hasee\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Andy\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hasee\\Desktop\\cpsc481\\Horizontal-Prototype\\Vertical-Prototype\\Vertical-Prototype\\Vertical-Prototype.csproj",
+      "projectUniqueName": "C:\\Users\\Andy\\Documents\\GitHub\\Horizontal-Prototype\\Vertical-Prototype\\Vertical-Prototype\\Vertical-Prototype.csproj",
       "projectName": "Vertical-Prototype",
-      "projectPath": "C:\\Users\\hasee\\Desktop\\cpsc481\\Horizontal-Prototype\\Vertical-Prototype\\Vertical-Prototype\\Vertical-Prototype.csproj",
-      "packagesPath": "C:\\Users\\hasee\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hasee\\Desktop\\cpsc481\\Horizontal-Prototype\\Vertical-Prototype\\Vertical-Prototype\\obj\\",
+      "projectPath": "C:\\Users\\Andy\\Documents\\GitHub\\Horizontal-Prototype\\Vertical-Prototype\\Vertical-Prototype\\Vertical-Prototype.csproj",
+      "packagesPath": "C:\\Users\\Andy\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Andy\\Documents\\GitHub\\Horizontal-Prototype\\Vertical-Prototype\\Vertical-Prototype\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\hasee\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Andy\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -129,7 +51,11 @@
       "frameworks": {
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Andy\\source\\repos\\RatingControl\\Rating_WPF\\Rating_WPF.csproj": {
+              "projectPath": "C:\\Users\\Andy\\source\\repos\\RatingControl\\Rating_WPF\\Rating_WPF.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -165,7 +91,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   },

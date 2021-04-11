@@ -1,20 +1,21 @@
 ﻿<UserControl x:Class="Vertical_Prototype.RecipeDisplaySmall"
 			 xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
 			 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-			 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-			 xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+			 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+			 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
 			 xmlns:local="clr-namespace:Vertical_Prototype"
-			 mc:Ignorable="d" 
+			 mc:Ignorable="d"
 			 d:DesignHeight="90" d:DesignWidth="640">
     <Canvas HorizontalAlignment="Left" Height="90" Margin="0,0,0,0" VerticalAlignment="Center" Width="640" Background="#CAF7C9">
 
         <Image Source="{Binding Image, Mode=OneWay}" Height="80" Canvas.Left="7" Canvas.Top="5" Width="80"/>
         <Label Name="smallRecipeName" Content="{Binding RecipeName, Mode= OneWay}" Canvas.Left="95" Canvas.Top="6" Width="338" Height="35" FontWeight="Bold" FontSize="15"/>
-        
+
         <Label Content="Rating:" Canvas.Left="468" Canvas.Top="6"/>
         <Label Content="Difficulty:" Canvas.Left="146" Canvas.Top="45"/>
         <Label Content="Time to Make:" Canvas.Left="382" Canvas.Top="45"/>
         <Label x:Name="_prepTimeLabel" Content="45 minutes or less." Canvas.Left="468" Canvas.Top="45" Width="116"/>
+				<Label Content="/5" FontSize='15' Canvas.Left="539" Canvas.Top="1"/>
 
     </Canvas>
 
