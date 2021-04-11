@@ -36,6 +36,7 @@ namespace Vertical_Prototype
             this.MyRecipe = rcp;
             this.DataContext = this.MyRecipe;
             this.Init = init;
+            _prepTimeText.Content = TimeStringFormat.GenerateString(this.MyRecipe.Time);
         }
 
         private void MyRecipeEditButon_Click(object sender, RoutedEventArgs e)

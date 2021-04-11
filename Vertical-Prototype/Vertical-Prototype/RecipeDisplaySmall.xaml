@@ -14,6 +14,7 @@
         <Label Content="Rating:" Canvas.Left="468" Canvas.Top="6"/>
         <Label Content="Difficulty:" Canvas.Left="146" Canvas.Top="45"/>
         <Label Content="Time to Make:" Canvas.Left="382" Canvas.Top="45"/>
+        <Label x:Name="_prepTimeLabel" Content="45 minutes or less." Canvas.Left="468" Canvas.Top="45" Width="116"/>
 
     </Canvas>
 

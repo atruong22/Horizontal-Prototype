@@ -28,10 +28,15 @@ namespace Vertical_Prototype
 		public string customText { get; set; }
 
 
-		public RecipeDisplayContent(Recipe rcp) : this()
+		public RecipeDisplayContent(InitRecipes init, Recipe rcp) : this()
 		{
 			InitializeComponent();
 			this.DataContext = rcp;
+
+			if (init.FavoriteRecipes.Contains(rcp))
+            {
+				_favoriteImage.Source = new BitmapImage( new Uri("/images/unfavoriteButton.png", UriKind.Relative));
+            }
 
 			foreach ((Ingredient, double) ingredient in rcp.recipeIngredients)
 			{
@@ -42,6 +47,21 @@ namespace Vertical_Prototype
 
 				this.IngredientsPanel.Children.Add(ingredientDisplay);
 			}
+
+			recipeDisplayContent_favoriteButton.Click += (sender, eventArgs) =>
+			{
+				if (init.FavoriteRecipes.Contains(rcp)) //If the recipe is already a favorite and the button is clicked to unfavorite
+				{
+					_favoriteImage.Source = new BitmapImage(new Uri("/images/favoriteButton.png", UriKind.Relative));
+					init.FavoriteRecipes.Remove(rcp);
+				} else {	//If the image should be added to favorites
+					_favoriteImage.Source = new BitmapImage(new Uri("/images/unfavoriteButton.png", UriKind.Relative));
+					init.FavoriteRecipes.Add(rcp);
+				}
+
+			};
+
+			_prepTimeLabel.Content = TimeStringFormat.GenerateString(rcp.Time);
 
 		}
 

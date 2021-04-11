@@ -41,7 +41,7 @@ namespace Vertical_Prototype
 
             foreach ((Ingredient, double) ingredient in this.NewRecipe.recipeIngredients)
             {
-                ingredientTextDisplay ingredientDisplay = new ingredientTextDisplay();
+                ingredientTextDisplayEdit ingredientDisplay = new ingredientTextDisplayEdit( this.NewRecipe);
                 ingredientDisplay.IngNameTag = ingredient.Item1.IngredientName;
                 ingredientDisplay.IngNumTag = ingredient.Item2.ToString();
                 ingredientDisplay.IngMeasureTag = ingredient.Item1.BaseMeasure;
@@ -87,7 +87,29 @@ namespace Vertical_Prototype
 
             this.Init.UserRecipes.Remove(this.NewRecipe);   //Remove the recipe from the list if it exist
             this.Init.UserRecipes.Add(this.NewRecipe);      //Add / re-add the recipe to My Recipes
-            //At the end show a save message and lave page to not duplicate the recipe
+            //At the end show a save message
+
+            _saveButtonImage.Source = new BitmapImage(new Uri("/images/savedButton.png", UriKind.Relative));
+            System.Timers.Timer timer = new System.Timers.Timer(3000) { Enabled = true };
+            timer.Elapsed += (sender, args) =>
+            {
+                this.Dispatcher.Invoke(() =>
+                {
+                    _saveButtonImage.Source = new BitmapImage(new Uri("/images/saveButton.png", UriKind.Relative));
+                });
+            };
+        }
+
+        private void addRecipeContent_addIngredientButton_Click(object sender, RoutedEventArgs e)
+        {
+            AddIngredientStack.Children.Clear();
+            AddIngredientStack.Children.Add( new AddIngredientPanel(this.Init, this.NewRecipe, this.NewHeader));
+        }
+
+        private void addRecipeContent_addPhotoButton_Click(object sender, RoutedEventArgs e)
+        {
+            _recipePhoto.Source = new BitmapImage(new Uri("/images/ChefHat.png", UriKind.Relative));
+            this.NewRecipe.Image = "images/ChefHat.png";
         }
     }
 }

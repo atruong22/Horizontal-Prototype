@@ -8,7 +8,7 @@
              d:DesignHeight="90" d:DesignWidth="688">
     <Grid Background="#CAF7C9">
         <!-- Will need to pass in the name and have dynamic sizing -->
-        <TextBlock x:Name="recipeHeader_title" HorizontalAlignment="Center" Height="70" Text="{Binding RecipeName}" TextWrapping="Wrap" VerticalAlignment="Center" Width="494" TextAlignment="Center" FontWeight="Bold" FontSize="48"/>
+        <TextBlock x:Name="recipeHeader_title" HorizontalAlignment="Center" Height="70" Text="{Binding RecipeName}" TextWrapping="Wrap" VerticalAlignment="Center" Width="668" TextAlignment="Center" FontWeight="Bold" FontSize="48"/>
 
     </Grid>
 </UserControl>

@@ -11,8 +11,11 @@
         <Image Source="{Binding Image, Mode=OneWay}" Height="80" Canvas.Left="7" Canvas.Top="5" Width="80"/>
         <Label Name="smallRecipeName" Content="{Binding RecipeName, Mode= OneWay}" Canvas.Left="95" Canvas.Top="6" Width="338" Height="35" FontWeight="Bold" FontSize="15"/>
         <Label Content="Difficulty:" Canvas.Left="120" Canvas.Top="45"/>
-        <Label Content="Time to Make:" Canvas.Left="320" Canvas.Top="45"/>
-        <Button x:Name="MyRecipeEditButon" Height="70" Width="118" Canvas.Left="512" Canvas.Top="10" Content="Edit" Click="MyRecipeEditButon_Click" />
+        <Label Content="Time to Make:" Canvas.Left="297" Canvas.Top="45"/>
+        <Label x:Name="_prepTimeText" Content="45 minutes or less." Canvas.Left="382" Canvas.Top="45"/>
+        <Button x:Name="MyRecipeEditButon" Height="70" Width="118" Canvas.Left="512" Canvas.Top="10" Click="MyRecipeEditButon_Click" Background="Transparent" BorderBrush="Transparent">
+            <Image Source="images/editButton.png"/>
+        </Button>
 
     </Canvas>
 

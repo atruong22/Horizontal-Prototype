@@ -30,7 +30,8 @@ namespace Vertical_Prototype
         {
             InitializeComponent();
             this.DataContext = rcp;
-            
+            _prepTimeLabel.Content = TimeStringFormat.GenerateString(rcp.Time);
+
         }
     }
 }

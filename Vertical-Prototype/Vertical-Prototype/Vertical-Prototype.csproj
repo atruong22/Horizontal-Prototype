@@ -9,16 +9,32 @@
 
   <ItemGroup>
     <None Remove="images\AddImage.png" />
+    <None Remove="images\addRecipeButton.png" />
     <None Remove="images\aglioEOlio.png" />
     <None Remove="images\ChefHat.png" />
+    <None Remove="images\editButton.png" />
+    <None Remove="images\favoriteButton.png" />
+    <None Remove="images\saveButton.png" />
+    <None Remove="images\savedButton.png" />
     <None Remove="images\SearchIcon.png" />
+    <None Remove="images\unfavoriteButton.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Extended.Wpf.Toolkit" Version="4.0.2" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="images\AddImage.png" />
+    <Resource Include="images\addRecipeButton.png" />
     <Resource Include="images\aglioEOlio.png" />
     <Resource Include="images\ChefHat.png" />
+    <Resource Include="images\editButton.png" />
+    <Resource Include="images\favoriteButton.png" />
+    <Resource Include="images\saveButton.png" />
+    <Resource Include="images\savedButton.png" />
     <Resource Include="images\SearchIcon.png" />
+    <Resource Include="images\unfavoriteButton.png" />
   </ItemGroup>
 
 </Project>

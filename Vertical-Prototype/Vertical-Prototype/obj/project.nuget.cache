@@ -1,8 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "6nNHNhLLLskloY7Qs6LA0e7+Y+8zs+imz56T3JGZoqWPLM8HVBLPR2sTfiCP57VZxmARcCMaihqeO7uW7UE/tw==",
+  "dgSpecHash": "PyfI16Gdvy0Lhlwz//etxjtSZx0JbOa66jJk+kxLkymBsLvRf8qpzkNwmMpZwd5ViLdXt3B6KOZthvCGla5iLQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hasee\\Desktop\\cpsc481\\Horizontal-Prototype\\Vertical-Prototype\\Vertical-Prototype\\Vertical-Prototype.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "projectFilePath": "C:\\Users\\Wheel-E\\Documents\\Winter2021\\HCI\\PROJECT\\Horizontal-Prototype\\Vertical-Prototype\\Vertical-Prototype\\Vertical-Prototype.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Wheel-E\\.nuget\\packages\\extended.wpf.toolkit\\4.0.2\\extended.wpf.toolkit.4.0.2.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Extended.Wpf.Toolkit 4.0.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Extended.Wpf.Toolkit",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    }
+  ]
 }

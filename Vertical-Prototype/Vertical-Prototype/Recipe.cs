@@ -25,6 +25,9 @@ namespace Vertical_Prototype
 		//A list of tupples containing ingredients and their servings
 		//Use recipeIngredents.Count to find the number of ingredients
 
+		public string[] tags { get; set; }
+		//list containing tags for searching and filtering
+
 		public string Instructions { get; set; }
 		//Instructions to make the recipe. One long string that can use \n to separate steps
 
@@ -95,17 +98,23 @@ namespace Vertical_Prototype
 			}
 		}
 
-
+		//The constructor that will be called when users create a new recipe
 		public Recipe()
 		{
-			this.RecipeName = "Test";
-			this.Rating = 3;
-			this.Difficulty = 3;
-			this.Time = 15;
-			this.Instructions = "Instructions I guess.........";
+			this.RecipeName = "Give your recipe a name!";
+			this.Rating = 0;
+			this.Difficulty = 0;
+			this.Image = "/images/AddImage.png";
+			this.Time = 10;
+			this.Instructions = "Here is where you can describe the steps to prepair your dish.\n" +
+				"The entire contents of this textbox will be saved as part of your recipe." +
+				"Consider numbering the steps in your recipe, but the decision is all up to you.\n" +
+				"Theis box is for you to use as you like!";
 			this.recipeIngredients = new List<(Ingredient, double)>();
+			this.tags =  new string[] { "recipe"};
 		}
 
+		//The constructor used to specify predefined recipes
 		public Recipe(string name, int rate, int diff, string img, int time, List<(Ingredient, double)> ingredients, string instructions)
 		{
 			this.RecipeName = name;
@@ -116,16 +125,6 @@ namespace Vertical_Prototype
 			this.Image = "/images/" + img;
 			this.recipeIngredients = ingredients;
 			this.Instructions = instructions;
-		}
-
-		public Recipe(string nam)
-		{
-			this.RecipeName = nam;
-			this.Rating = 3;
-			this.Difficulty = 3;
-			this.Time = 15;
-			this.Instructions = "Instructions I guess.........";
-			this.Image = "/images/aglioEOlio.png";
 		}
 
 	}
