@@ -7,7 +7,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="314" d:DesignWidth="683">
     <Grid Background="#CAF7C9">
-        <TextBlock HorizontalAlignment="Center" Margin="0,167,0,0" Text="Please Log In First to View More" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,125,0,0" Text="Please Log In First to View More" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30"/>
     </Grid>
 
 </UserControl>

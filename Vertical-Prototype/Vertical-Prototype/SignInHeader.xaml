@@ -7,7 +7,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="90" d:DesignWidth="688">
     <Grid Background="#CAF7C9">
-        <TextBlock x:Name="sugnUpHeader_title" HorizontalAlignment="Left" Height="70" TextWrapping="Wrap" VerticalAlignment="Center" Width="688" TextAlignment="Center" FontWeight="Bold" FontSize="48" Margin="-55,0,0,0"><Run Language="zh-cn" Text="Account Information"/></TextBlock>
+        <TextBlock x:Name="sugnUpHeader_title" HorizontalAlignment="Center" Height="70" TextWrapping="Wrap" VerticalAlignment="Center" Width="688" TextAlignment="Center" FontWeight="Bold" FontSize="48"><Run Language="zh-cn" Text="Account Information"/></TextBlock>
 
     </Grid>
 </UserControl>

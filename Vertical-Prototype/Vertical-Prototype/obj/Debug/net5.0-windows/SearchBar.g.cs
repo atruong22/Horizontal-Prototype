@@ -31,23 +31,6 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Shell;
 using Vertical_Prototype;
-using Xceed.Wpf.Toolkit;
-using Xceed.Wpf.Toolkit.Chromes;
-using Xceed.Wpf.Toolkit.Converters;
-using Xceed.Wpf.Toolkit.Core;
-using Xceed.Wpf.Toolkit.Core.Converters;
-using Xceed.Wpf.Toolkit.Core.Input;
-using Xceed.Wpf.Toolkit.Core.Media;
-using Xceed.Wpf.Toolkit.Core.Utilities;
-using Xceed.Wpf.Toolkit.Mag.Converters;
-using Xceed.Wpf.Toolkit.Panels;
-using Xceed.Wpf.Toolkit.Primitives;
-using Xceed.Wpf.Toolkit.PropertyGrid;
-using Xceed.Wpf.Toolkit.PropertyGrid.Attributes;
-using Xceed.Wpf.Toolkit.PropertyGrid.Commands;
-using Xceed.Wpf.Toolkit.PropertyGrid.Converters;
-using Xceed.Wpf.Toolkit.PropertyGrid.Editors;
-using Xceed.Wpf.Toolkit.Zoombox;
 
 
 namespace Vertical_Prototype {
@@ -144,7 +127,7 @@ namespace Vertical_Prototype {
         /// InitializeComponent
         /// </summary>
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "5.0.3.0")]
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "5.0.4.0")]
         public void InitializeComponent() {
             if (_contentLoaded) {
                 return;
@@ -160,7 +143,7 @@ namespace Vertical_Prototype {
         }
         
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "5.0.3.0")]
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "5.0.4.0")]
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Design", "CA1033:InterfaceMethodsShouldBeCallableByChildTypes")]
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Maintainability", "CA1502:AvoidExcessiveComplexity")]

@@ -1,0 +1,76 @@
+D:\Nilesh\Tutorial\WPF_C#\New_Tutorial\Demos\Rating_WPF\Rating_WPF\bin\Debug\Rating_WPF.exe
+D:\Nilesh\Tutorial\WPF_C#\New_Tutorial\Demos\Rating_WPF\Rating_WPF\bin\Debug\Rating_WPF.pdb
+D:\Nilesh\Tutorial\WPF_C#\New_Tutorial\Demos\Rating_WPF\Rating_WPF\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Nilesh\Tutorial\WPF_C#\New_Tutorial\Demos\Rating_WPF\Rating_WPF\obj\x86\Debug\MainWindow.baml
+D:\Nilesh\Tutorial\WPF_C#\New_Tutorial\Demos\Rating_WPF\Rating_WPF\obj\x86\Debug\MainWindow.g.cs
+D:\Nilesh\Tutorial\WPF_C#\New_Tutorial\Demos\Rating_WPF\Rating_WPF\obj\x86\Debug\App.g.cs
+D:\Nilesh\Tutorial\WPF_C#\New_Tutorial\Demos\Rating_WPF\Rating_WPF\obj\x86\Debug\Rating_WPF_MarkupCompile.cache
+D:\Nilesh\Tutorial\WPF_C#\New_Tutorial\Demos\Rating_WPF\Rating_WPF\obj\x86\Debug\Rating_WPF.g.resources
+D:\Nilesh\Tutorial\WPF_C#\New_Tutorial\Demos\Rating_WPF\Rating_WPF\obj\x86\Debug\Rating_WPF.Properties.Resources.resources
+D:\Nilesh\Tutorial\WPF_C#\New_Tutorial\Demos\Rating_WPF\Rating_WPF\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Nilesh\Tutorial\WPF_C#\New_Tutorial\Demos\Rating_WPF\Rating_WPF\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Nilesh\Tutorial\WPF_C#\New_Tutorial\Demos\Rating_WPF\Rating_WPF\obj\x86\Debug\Rating_WPF.exe
+D:\Nilesh\Tutorial\WPF_C#\New_Tutorial\Demos\Rating_WPF\Rating_WPF\obj\x86\Debug\Rating_WPF.pdb
+D:\Desktop\Rating_WPF\Rating_WPF\bin\Debug\Rating_WPF.exe
+D:\Desktop\Rating_WPF\Rating_WPF\bin\Debug\Rating_WPF.pdb
+D:\Desktop\Rating_WPF\Rating_WPF\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Desktop\Rating_WPF\Rating_WPF\obj\x86\Debug\MainWindow.baml
+D:\Desktop\Rating_WPF\Rating_WPF\obj\x86\Debug\MainWindow.g.cs
+D:\Desktop\Rating_WPF\Rating_WPF\obj\x86\Debug\App.g.cs
+D:\Desktop\Rating_WPF\Rating_WPF\obj\x86\Debug\Rating_WPF_MarkupCompile.cache
+D:\Desktop\Rating_WPF\Rating_WPF\obj\x86\Debug\Rating_WPF.g.resources
+D:\Desktop\Rating_WPF\Rating_WPF\obj\x86\Debug\Rating_WPF.Properties.Resources.resources
+D:\Desktop\Rating_WPF\Rating_WPF\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Desktop\Rating_WPF\Rating_WPF\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Desktop\Rating_WPF\Rating_WPF\obj\x86\Debug\Rating_WPF.exe
+D:\Desktop\Rating_WPF\Rating_WPF\obj\x86\Debug\Rating_WPF.pdb
+D:\Jay_Projects\Demo Examples\Rating_WPF\Rating_WPF\obj\x86\Debug\Rating_WPF.exe
+D:\Jay_Projects\Demo Examples\Rating_WPF\Rating_WPF\obj\x86\Debug\Rating_WPF.pdb
+D:\Jay_Projects\Demo Examples\Rating_WPF\Rating_WPF\bin\Debug\Rating_WPF.exe
+D:\Jay_Projects\Demo Examples\Rating_WPF\Rating_WPF\bin\Debug\Rating_WPF.pdb
+D:\Jay_Projects\Demo Examples\Rating_WPF\Rating_WPF\obj\x86\Debug\MainWindow.baml
+D:\Jay_Projects\Demo Examples\Rating_WPF\Rating_WPF\obj\x86\Debug\MainWindow.g.cs
+D:\Jay_Projects\Demo Examples\Rating_WPF\Rating_WPF\obj\x86\Debug\App.g.cs
+D:\Jay_Projects\Demo Examples\Rating_WPF\Rating_WPF\obj\x86\Debug\Rating_WPF_MarkupCompile.cache
+D:\Jay_Projects\Demo Examples\Rating_WPF\Rating_WPF\obj\x86\Debug\Rating_WPF.g.resources
+D:\Jay_Projects\Demo Examples\Rating_WPF\Rating_WPF\obj\x86\Debug\Rating_WPF.Properties.Resources.resources
+D:\Jay_Projects\Demo Examples\Rating_WPF\Rating_WPF\obj\x86\Debug\Rating_WPF.csproj.GenerateResource.Cache
+C:\Users\Andy\Downloads\ratingcontrol-code-scratcher\RatingControl\Rating_WPF\bin\Debug\Rating_WPF.exe
+C:\Users\Andy\Downloads\ratingcontrol-code-scratcher\RatingControl\Rating_WPF\bin\Debug\Rating_WPF.pdb
+C:\Users\Andy\Downloads\ratingcontrol-code-scratcher\RatingControl\Rating_WPF\obj\x86\Debug\Rating_WPF.csprojAssemblyReference.cache
+C:\Users\Andy\Downloads\ratingcontrol-code-scratcher\RatingControl\Rating_WPF\obj\x86\Debug\MainWindow.baml
+C:\Users\Andy\Downloads\ratingcontrol-code-scratcher\RatingControl\Rating_WPF\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Andy\Downloads\ratingcontrol-code-scratcher\RatingControl\Rating_WPF\obj\x86\Debug\App.g.cs
+C:\Users\Andy\Downloads\ratingcontrol-code-scratcher\RatingControl\Rating_WPF\obj\x86\Debug\Rating_WPF_MarkupCompile.cache
+C:\Users\Andy\Downloads\ratingcontrol-code-scratcher\RatingControl\Rating_WPF\obj\x86\Debug\Rating_WPF.g.resources
+C:\Users\Andy\Downloads\ratingcontrol-code-scratcher\RatingControl\Rating_WPF\obj\x86\Debug\Rating_WPF.Properties.Resources.resources
+C:\Users\Andy\Downloads\ratingcontrol-code-scratcher\RatingControl\Rating_WPF\obj\x86\Debug\Rating_WPF.csproj.GenerateResource.cache
+C:\Users\Andy\Downloads\ratingcontrol-code-scratcher\RatingControl\Rating_WPF\obj\x86\Debug\Rating_WPF.csproj.CoreCompileInputs.cache
+C:\Users\Andy\Downloads\ratingcontrol-code-scratcher\RatingControl\Rating_WPF\obj\x86\Debug\Rating_WPF.exe
+C:\Users\Andy\Downloads\ratingcontrol-code-scratcher\RatingControl\Rating_WPF\obj\x86\Debug\Rating_WPF.pdb
+C:\Users\Andy\source\repos\RatingControl\Rating_WPF\bin\Debug\Rating_WPF.exe
+C:\Users\Andy\source\repos\RatingControl\Rating_WPF\bin\Debug\Rating_WPF.pdb
+C:\Users\Andy\source\repos\RatingControl\Rating_WPF\obj\x86\Debug\Rating_WPF.csprojAssemblyReference.cache
+C:\Users\Andy\source\repos\RatingControl\Rating_WPF\obj\x86\Debug\MainWindow.baml
+C:\Users\Andy\source\repos\RatingControl\Rating_WPF\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Andy\source\repos\RatingControl\Rating_WPF\obj\x86\Debug\App.g.cs
+C:\Users\Andy\source\repos\RatingControl\Rating_WPF\obj\x86\Debug\Rating_WPF_MarkupCompile.cache
+C:\Users\Andy\source\repos\RatingControl\Rating_WPF\obj\x86\Debug\Rating_WPF.g.resources
+C:\Users\Andy\source\repos\RatingControl\Rating_WPF\obj\x86\Debug\Rating_WPF.Properties.Resources.resources
+C:\Users\Andy\source\repos\RatingControl\Rating_WPF\obj\x86\Debug\Rating_WPF.csproj.GenerateResource.cache
+C:\Users\Andy\source\repos\RatingControl\Rating_WPF\obj\x86\Debug\Rating_WPF.csproj.CoreCompileInputs.cache
+C:\Users\Andy\source\repos\RatingControl\Rating_WPF\obj\x86\Debug\Rating_WPF.exe
+C:\Users\Andy\source\repos\RatingControl\Rating_WPF\obj\x86\Debug\Rating_WPF.pdb
+C:\Users\Wheel-E\Documents\Winter2021\HCI\PROJECT\Horizontal-Prototype\Vertical-Prototype\RatingControl\Rating_WPF\bin\Debug\Rating_WPF.exe
+C:\Users\Wheel-E\Documents\Winter2021\HCI\PROJECT\Horizontal-Prototype\Vertical-Prototype\RatingControl\Rating_WPF\bin\Debug\Rating_WPF.pdb
+C:\Users\Wheel-E\Documents\Winter2021\HCI\PROJECT\Horizontal-Prototype\Vertical-Prototype\RatingControl\Rating_WPF\obj\x86\Debug\Rating_WPF.csprojAssemblyReference.cache
+C:\Users\Wheel-E\Documents\Winter2021\HCI\PROJECT\Horizontal-Prototype\Vertical-Prototype\RatingControl\Rating_WPF\obj\x86\Debug\MainWindow.baml
+C:\Users\Wheel-E\Documents\Winter2021\HCI\PROJECT\Horizontal-Prototype\Vertical-Prototype\RatingControl\Rating_WPF\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Wheel-E\Documents\Winter2021\HCI\PROJECT\Horizontal-Prototype\Vertical-Prototype\RatingControl\Rating_WPF\obj\x86\Debug\App.g.cs
+C:\Users\Wheel-E\Documents\Winter2021\HCI\PROJECT\Horizontal-Prototype\Vertical-Prototype\RatingControl\Rating_WPF\obj\x86\Debug\Rating_WPF_MarkupCompile.cache
+C:\Users\Wheel-E\Documents\Winter2021\HCI\PROJECT\Horizontal-Prototype\Vertical-Prototype\RatingControl\Rating_WPF\obj\x86\Debug\Rating_WPF.g.resources
+C:\Users\Wheel-E\Documents\Winter2021\HCI\PROJECT\Horizontal-Prototype\Vertical-Prototype\RatingControl\Rating_WPF\obj\x86\Debug\Rating_WPF.Properties.Resources.resources
+C:\Users\Wheel-E\Documents\Winter2021\HCI\PROJECT\Horizontal-Prototype\Vertical-Prototype\RatingControl\Rating_WPF\obj\x86\Debug\Rating_WPF.csproj.GenerateResource.cache
+C:\Users\Wheel-E\Documents\Winter2021\HCI\PROJECT\Horizontal-Prototype\Vertical-Prototype\RatingControl\Rating_WPF\obj\x86\Debug\Rating_WPF.csproj.CoreCompileInputs.cache
+C:\Users\Wheel-E\Documents\Winter2021\HCI\PROJECT\Horizontal-Prototype\Vertical-Prototype\RatingControl\Rating_WPF\obj\x86\Debug\Rating_WPF.exe
+C:\Users\Wheel-E\Documents\Winter2021\HCI\PROJECT\Horizontal-Prototype\Vertical-Prototype\RatingControl\Rating_WPF\obj\x86\Debug\Rating_WPF.pdb

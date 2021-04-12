@@ -4,16 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Andy\Documents\GitHub\Horizontal-Prototype\Vertical-Prototype\Vertical-Prototype\obj\Debug\net5.0-windows\
+C:\Users\Wheel-E\Documents\Winter2021\HCI\PROJECT\Horizontal-Prototype\Vertical-Prototype\Vertical-Prototype\obj\Debug\net5.0-windows\
 Vertical_Prototype
 none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
-C:\Users\Andy\Documents\GitHub\Horizontal-Prototype\Vertical-Prototype\Vertical-Prototype\App.xaml
-191082763196
+C:\Users\Wheel-E\Documents\Winter2021\HCI\PROJECT\Horizontal-Prototype\Vertical-Prototype\Vertical-Prototype\App.xaml
+22-1733558329
 
-25331809243
-194-646678981
-AddRecipeContent.xaml;AddRecipeHeader.xaml;FavoriteRecipesContent.xaml;HomePageContent.xaml;ingredientTextDisplay.xaml;LoginContent.xaml;LoginHeader.xaml;MainWindow.xaml;MyRecipeDisplaySmall.xaml;MyRecipesContent.xaml;RecipeDisplayContent.xaml;RecipeDisplaySmall.xaml;RecipeHeader.xaml;SearchBar.xaml;SearchResultsContent.xaml;SignInContent.xaml;SignInHeader.xaml;SignUpContent.xaml;SignUpHeader.xaml;
+337999555
+1941563602839
+AddIngredientPanel.xaml;AddRecipeContent.xaml;AddRecipeHeader.xaml;FavoriteRecipesContent.xaml;HomePageContent.xaml;ingredientTextDisplay.xaml;ingredientTextDisplayEdit.xaml;LoginContent.xaml;LoginHeader.xaml;LoginInTips.xaml;MainWindow.xaml;MyRecipeDisplaySmall.xaml;MyRecipesContent.xaml;RecipeDisplayContent.xaml;RecipeDisplaySmall.xaml;RecipeHeader.xaml;SearchBar.xaml;SearchResultsContent.xaml;SignInContent.xaml;SignInHeader.xaml;SignUpContent.xaml;SignUpHeader.xaml;
 
 False
+

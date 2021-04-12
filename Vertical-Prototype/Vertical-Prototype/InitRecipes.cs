@@ -31,11 +31,11 @@ namespace Vertical_Prototype
             this.AllIngredients.Add(new Ingredient("Spaghetti", "cup(s)", 220, 1.29, 42.95, 8.06));
 
             //For testing
-            this.AllIngredients.Add(new Ingredient("Spagooter", "cup(s)", 220, 1.29, 42.95, 8.06));
-            this.AllIngredients.Add(new Ingredient("Spagootini", "cup(s)", 220, 1.29, 42.95, 8.06));
-            this.AllIngredients.Add(new Ingredient("Spaggy", "cup(s)", 220, 1.29, 42.95, 8.06));
-            this.AllIngredients.Add(new Ingredient("Spaginator", "cup(s)", 220, 1.29, 42.95, 8.06));
-            this.AllIngredients.Add(new Ingredient("Spagizzle", "cup(s)", 220, 1.29, 42.95, 8.06));
+            //this.AllIngredients.Add(new Ingredient("Spagooter", "cup(s)", 220, 1.29, 42.95, 8.06));
+            //this.AllIngredients.Add(new Ingredient("Spagootini", "cup(s)", 220, 1.29, 42.95, 8.06));
+            //this.AllIngredients.Add(new Ingredient("Spaggy", "cup(s)", 220, 1.29, 42.95, 8.06));
+            //this.AllIngredients.Add(new Ingredient("Spaginator", "cup(s)", 220, 1.29, 42.95, 8.06));
+            //this.AllIngredients.Add(new Ingredient("Spagizzle", "cup(s)", 220, 1.29, 42.95, 8.06));
 
             aglioIngredinets.Add((new Ingredient("Garlic", "clove(s)", 4, 0.02, 0.99, 0.19), 6));
             this.AllIngredients.Add(new Ingredient("Garlic", "clove(s)", 4, 0.02, 0.99, 0.19));
@@ -241,17 +241,17 @@ namespace Vertical_Prototype
             "7.Sprinkle a tablespoon of sugar on top of each crème brûlée.Using a torch, melt the sugar to for a crispy top.If you don’t have a torch, you can broil the crème brûlée to melt the sugar.Keep an eye on it, to make sure you don’t over cook it.Allow the crème brûlée to sit for at least 5 minutes before serving. \n" +
             "8. You can also make various flavor by using different ice cream flavors. If you are using flavored ice cream, use 1 egg instead of 1 yolk.";
 
-            //public Recipe(string name, int rate, int diff, string img, int time, List<(Ingredient, double)> ingredients, string instructions)
-            //this.AllRecipes.Add(new Recipe("Creme Brulee", 4, 3, "cremebrulee.png", 70, cremeBruleeIngredients, cremeBruleeInstructions));
-            //this.AllRecipes.Add(new Recipe("Creamy Bacon Hasselback Chicken", 4, 4, "creamybacon.png", 60, creamyBaconChickenIngredients, creamyBaconChickenInstructions));
+            //public Recipe(string name, int rate, int diff, string img, int time, List<(Ingredient, double)> ingredients, string instructions);
+            this.AllRecipes.Add(new Recipe("Creme Brulee", 4, 3, "cremebrulee.png", 70, cremeBruleeIngredients, cremeBruleeInstructions));
+            this.AllRecipes.Add(new Recipe("Creamy Bacon Hasselback Chicken", 4, 4, "creamybacon.png", 60, creamyBaconChickenIngredients, creamyBaconChickenInstructions));
             this.FeaturedRecipes.Add(new Recipe("Pumpkin Bread", 4, 3, "pumpkinbread.png", 70, pumpkinBreadIngredients, pumpkinBreadInstructions));
             this.FeaturedRecipes.Add(new Recipe("Ratatouille", 3, 3, "ratatouille.png", 60, ratatouilleIngredients, ratatouilleInstructions));
-            /*this.FeaturedRecipes.Add(new Recipe("Banana Oat Smoothie", 2, 2, "bananasmoothie.png", 15, bananaSmoothieIngredients, bananaSmoothieInstructions));
+            this.FeaturedRecipes.Add(new Recipe("Banana Oat Smoothie", 2, 2, "bananasmoothie.png", 15, bananaSmoothieIngredients, bananaSmoothieInstructions));
             this.FeaturedRecipes.Add(new Recipe("Cookies and Cream", 5, 2,"cookiesandcream.png",135, cookiesAndCreamIngredients,cookiesAndCreamInstructions));
             this.FeaturedRecipes.Add(new Recipe("Grilled Cheese", 4, 2, "grilledcheese.png", 10, grilledCheeseIngredients, grilledCheeseInstructions));
             this.FavoriteRecipes.Add(new Recipe("Spaghetti with Garlic and Oil Pasta", 3, 3, "spaghetti.png", 30, spaghettiIngredients, spaghettiInstructions));
             this.FavoriteRecipes.Add(new Recipe("Cheesy Egg Toast", 4, 2, "eggtoast.png", 30, eggToastIngredients, eggToastInstructions));
-            this.FeaturedRecipes.Add(new Recipe("Strawberry Sorbet", 4, 2, "strawberrysorbet.png", 15, strawberrySorbetIngredients, strawberrySorbetInstructions));
+            this.FeaturedRecipes.Add(new Recipe("Strawberry Sorbet", 4, 2, "strawberrySorbet2.jpg", 15, strawberrySorbetIngredients, strawberrySorbetInstructions));
             this.FeaturedRecipes.Add(new Recipe("Whipped Coffee", 3, 1, "coffee.png", 15, coffeeIngredients, coffeeInstructions));
 
             this.AllRecipes.Add(new Recipe("Pasta Aglio E Olio", 4, 2, "aglioEOlio.png", 30, aglioIngredinets, aglioInstructions));
@@ -259,7 +259,7 @@ namespace Vertical_Prototype
             this.FavoriteRecipes.Add(new Recipe("Spinach Frittata", 5, 2, "frittata.png", 25, frittataIngredients, frittataInstructions));
             this.FavoriteRecipes.Add(new Recipe("Teriyaki Chicken", 3, 1, "teriyaki.png", 27, teriyakiIngredients, teriyakiInstructions));
             this.FavoriteRecipes.Add(new Recipe("Bean And Cheese Toaster Quesadilla", 4, 2, "quesadilla.png", 25, quesadillaIngredients, quessadillaInstructions));
-            this.UserRecipes.Add(new Recipe("Pasta Aglio E Olio", 4, 2, "aglioEOlio.png", 30, aglioIngredinets, aglioInstructions));*/
+            this.UserRecipes.Add(new Recipe("Pasta Aglio E Olio", 4, 2, "aglioEOlio.png", 30, aglioIngredinets, aglioInstructions));
         }
 
 

@@ -18,6 +18,7 @@
     <None Remove="images\saveButton.png" />
     <None Remove="images\savedButton.png" />
     <None Remove="images\SearchIcon.png" />
+    <None Remove="images\strawberrySorbet2.jpg" />
     <None Remove="images\unfavoriteButton.png" />
 	  <None Remove="images\coffee.png" />
     <None Remove="images\cookiesandcream.png" />
@@ -39,9 +40,11 @@
     <None Remove="images\yellow star.png" />
   </ItemGroup>
 
+
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\..\source\repos\RatingControl\Rating_WPF\Rating_WPF.csproj" />
+    <ProjectReference Include="..\RatingControl\Rating_WPF\Rating_WPF.csproj" />
   </ItemGroup>
+
 
   <ItemGroup>
     <Resource Include="images\AddImage.png" />
@@ -54,6 +57,7 @@
     <Resource Include="images\saveButton.png" />
     <Resource Include="images\savedButton.png" />
     <Resource Include="images\SearchIcon.png" />
+    <Resource Include="images\strawberrySorbet2.jpg" />
     <Resource Include="images\unfavoriteButton.png" />
     <Resource Include="images\coffee.png" />
     <Resource Include="images\cookiesandcream.png" />

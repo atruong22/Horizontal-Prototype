@@ -16,8 +16,8 @@
   "libraries": {
     "Rating_WPF/1.0.0": {
       "type": "project",
-      "path": "../../../../../source/repos/RatingControl/Rating_WPF/Rating_WPF.csproj",
-      "msbuildProject": "../../../../../source/repos/RatingControl/Rating_WPF/Rating_WPF.csproj"
+      "path": "../RatingControl/Rating_WPF/Rating_WPF.csproj",
+      "msbuildProject": "../RatingControl/Rating_WPF/Rating_WPF.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -26,19 +26,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Andy\\.nuget\\packages\\": {}
+    "C:\\Users\\Wheel-E\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Andy\\Documents\\GitHub\\Horizontal-Prototype\\Vertical-Prototype\\Vertical-Prototype\\Vertical-Prototype.csproj",
+      "projectUniqueName": "C:\\Users\\Wheel-E\\Documents\\Winter2021\\HCI\\PROJECT\\Horizontal-Prototype\\Vertical-Prototype\\Vertical-Prototype\\Vertical-Prototype.csproj",
       "projectName": "Vertical-Prototype",
-      "projectPath": "C:\\Users\\Andy\\Documents\\GitHub\\Horizontal-Prototype\\Vertical-Prototype\\Vertical-Prototype\\Vertical-Prototype.csproj",
-      "packagesPath": "C:\\Users\\Andy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Andy\\Documents\\GitHub\\Horizontal-Prototype\\Vertical-Prototype\\Vertical-Prototype\\obj\\",
+      "projectPath": "C:\\Users\\Wheel-E\\Documents\\Winter2021\\HCI\\PROJECT\\Horizontal-Prototype\\Vertical-Prototype\\Vertical-Prototype\\Vertical-Prototype.csproj",
+      "packagesPath": "C:\\Users\\Wheel-E\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Wheel-E\\Documents\\Winter2021\\HCI\\PROJECT\\Horizontal-Prototype\\Vertical-Prototype\\Vertical-Prototype\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Andy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Wheel-E\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -52,8 +52,8 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\Users\\Andy\\source\\repos\\RatingControl\\Rating_WPF\\Rating_WPF.csproj": {
-              "projectPath": "C:\\Users\\Andy\\source\\repos\\RatingControl\\Rating_WPF\\Rating_WPF.csproj"
+            "C:\\Users\\Wheel-E\\Documents\\Winter2021\\HCI\\PROJECT\\Horizontal-Prototype\\Vertical-Prototype\\RatingControl\\Rating_WPF\\Rating_WPF.csproj": {
+              "projectPath": "C:\\Users\\Wheel-E\\Documents\\Winter2021\\HCI\\PROJECT\\Horizontal-Prototype\\Vertical-Prototype\\RatingControl\\Rating_WPF\\Rating_WPF.csproj"
             }
           }
         }
@@ -67,12 +67,6 @@
     "frameworks": {
       "net5.0-windows7.0": {
         "targetAlias": "net5.0-windows",
-        "dependencies": {
-          "Extended.Wpf.Toolkit": {
-            "target": "Package",
-            "version": "[4.0.2, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",
@@ -91,20 +85,8 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Extended.Wpf.Toolkit 4.0.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0-windows7.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Extended.Wpf.Toolkit",
-      "targetGraphs": [
-        "net5.0-windows7.0"
-      ]
-    }
-  ]
+  }
 }

@@ -1,0 +1,13 @@
+C:\Users\Andy\source\repos\RatingControl\Rating_WPF\bin\Release\Rating_WPF.exe
+C:\Users\Andy\source\repos\RatingControl\Rating_WPF\bin\Release\Rating_WPF.pdb
+C:\Users\Andy\source\repos\RatingControl\Rating_WPF\obj\Release\Rating_WPF.csprojAssemblyReference.cache
+C:\Users\Andy\source\repos\RatingControl\Rating_WPF\obj\Release\MainWindow.baml
+C:\Users\Andy\source\repos\RatingControl\Rating_WPF\obj\Release\MainWindow.g.cs
+C:\Users\Andy\source\repos\RatingControl\Rating_WPF\obj\Release\App.g.cs
+C:\Users\Andy\source\repos\RatingControl\Rating_WPF\obj\Release\Rating_WPF_MarkupCompile.cache
+C:\Users\Andy\source\repos\RatingControl\Rating_WPF\obj\Release\Rating_WPF.g.resources
+C:\Users\Andy\source\repos\RatingControl\Rating_WPF\obj\Release\Rating_WPF.Properties.Resources.resources
+C:\Users\Andy\source\repos\RatingControl\Rating_WPF\obj\Release\Rating_WPF.csproj.GenerateResource.cache
+C:\Users\Andy\source\repos\RatingControl\Rating_WPF\obj\Release\Rating_WPF.csproj.CoreCompileInputs.cache
+C:\Users\Andy\source\repos\RatingControl\Rating_WPF\obj\Release\Rating_WPF.exe
+C:\Users\Andy\source\repos\RatingControl\Rating_WPF\obj\Release\Rating_WPF.pdb
