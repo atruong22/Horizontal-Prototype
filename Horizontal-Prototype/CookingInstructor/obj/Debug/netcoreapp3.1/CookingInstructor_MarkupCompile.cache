@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Andy\source\repos\Horizontal-Prototype\CookingInstructor\obj\Debug\netcoreapp3.1\
+C:\Users\Wheel-E\Documents\Winter2021\HCI\PROJECT\Horizontal-Prototype\Horizontal-Prototype\CookingInstructor\obj\Debug\netcoreapp3.1\
 CookingInstructor
 none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
-C:\Users\Andy\source\repos\Horizontal-Prototype\CookingInstructor\App.xaml
-11151548125
+C:\Users\Wheel-E\Documents\Winter2021\HCI\PROJECT\Horizontal-Prototype\Horizontal-Prototype\CookingInstructor\App.xaml
+111692089660
 
-3-917710711
-1921654412462
-MainWindow.xaml;
+131926685778
+192-1533232326
+Favorites.xaml;Login.xaml;Main Page.xaml;MainWindow.xaml;My Recipes.xaml;MyAccount.xaml;New Recipe.xaml;RecipePage.xaml;Search Page.xaml;Settings.xaml;UserGuide.xaml;
 
-False
+True
 

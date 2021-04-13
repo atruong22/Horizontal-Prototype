@@ -15,8 +15,8 @@
                 <TextBlock Canvas.Left="202" Canvas.Top="36" Width="54"><Run Language="en-ca" Text="Difficulty:"/></TextBlock>
                 <TextBlock Canvas.Left="159" Canvas.Top="70" Width="97"><Run Language="en-ca" Text="Preparation Time:"/></TextBlock>
                 <!-- Display Difficulty and Prep time based on recipe-->
-                <TextBlock Canvas.Left="261" Canvas.Top="36" Text="{Binding Difficulty, Mode= OneWay}" TextWrapping="Wrap" Width="70" Height="16"/>
-                <Label x:Name="_prepTimeLabel" Content="45 minutes or less."  Canvas.Left="256" Canvas.Top="65" Width="120" Height="29"/>
+                <Image x:Name="_difficultyImage" Source="/images/easyDifficulty.png" Height="22" Width="88" Canvas.Left="256" Canvas.Top="35"/>
+                <Label x:Name="_prepTimeLabel" Content="45 minutes or less."  Canvas.Left="256" Canvas.Top="65" Width="120" Height="29" />
 
 
                 <Button x:Name="recipeDisplayContent_favoriteButton" Width="116" Height="42" Canvas.Left="510" Canvas.Top="28" Background="Transparent">
@@ -45,8 +45,11 @@
                 </ScrollViewer>
 
                 <TextBlock Canvas.Left="215" Canvas.Top="10" Width="41"><Run Language="en-ca" Text="Rating:"/></TextBlock>
-                <TextBlock Canvas.Left="261" Canvas.Top="10" Text="{Binding PrintRating, Mode= OneWay}" TextWrapping="Wrap" Width="70" Height="16"/>
+                <TextBlock Canvas.Left="256" Canvas.Top="8" Text="{Binding PrintRating, Mode= OneWay}" TextWrapping="Wrap" Width="26" Height="21" TextAlignment="Right" FontSize="16"/>
+                <Label Content="/5" FontSize='15' Canvas.Left="277" Canvas.Top="4" Width="23"/>
+                <!--
                 <TextBlock Canvas.Left="344" Canvas.Top="10" Text="{Binding NumRating, Mode= OneWay}" TextWrapping="Wrap" Width="70" Height="16"/>
+                -->
                 <Button x:Name="recipeDisplayContent_rateButton" Width="76" Height="24" Canvas.Left="405" Canvas.Top="18" Content="Rate this recipe?" FontSize="10" Click="recipeDisplayContent_rateButton_Click"/>
 
 

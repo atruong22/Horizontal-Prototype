@@ -137,5 +137,13 @@ namespace Vertical_Prototype
             Switcher.SwitchContentPanel(new SearchResultsContent(this.Init, searchResults));
             
         }
+
+        private void searchBar_textBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Return)
+            {
+                searchBar_searchButton_Click(sender, e);
+            }
+        }
     }
 }

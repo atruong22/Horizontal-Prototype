@@ -31,6 +31,22 @@ namespace Vertical_Prototype
             InitializeComponent();
             this.DataContext = rcp;
             _prepTimeLabel.Content = TimeStringFormat.GenerateString(rcp.Time);
+            
+                        switch (rcp.Difficulty)
+            {
+                case 3:
+                    _difficultyImage.Source = new BitmapImage(new Uri("/images/expertDifficulty.png", UriKind.Relative));
+                    break;
+                case 2:
+                    _difficultyImage.Source = new BitmapImage(new Uri("/images/hardDifficulty.png", UriKind.Relative));
+                    break;
+                case 1:
+                    _difficultyImage.Source = new BitmapImage(new Uri("/images/mediumDifficulty.png", UriKind.Relative));
+                    break;
+                default:
+                    _difficultyImage.Source = new BitmapImage(new Uri("/images/easyDifficulty.png", UriKind.Relative));
+                    break;
+            }
 
         }
     }

@@ -234,3 +234,5 @@ C:\Users\Wheel-E\Documents\Winter2021\HCI\PROJECT\Horizontal-Prototype\Vertical-
 C:\Users\Wheel-E\Documents\Winter2021\HCI\PROJECT\Horizontal-Prototype\Vertical-Prototype\Vertical-Prototype\obj\Debug\net5.0-windows\Vertical-Prototype.csproj.CopyComplete
 C:\Users\Wheel-E\Documents\Winter2021\HCI\PROJECT\Horizontal-Prototype\Vertical-Prototype\Vertical-Prototype\obj\Debug\net5.0-windows\Vertical-Prototype.dll
 C:\Users\Wheel-E\Documents\Winter2021\HCI\PROJECT\Horizontal-Prototype\Vertical-Prototype\Vertical-Prototype\obj\Debug\net5.0-windows\Vertical-Prototype.genruntimeconfig.cache
+C:\Users\Wheel-E\Documents\Winter2021\HCI\PROJECT\Horizontal-Prototype\Vertical-Prototype\Vertical-Prototype\obj\Debug\net5.0-windows\HelpContent.g.cs
+C:\Users\Wheel-E\Documents\Winter2021\HCI\PROJECT\Horizontal-Prototype\Vertical-Prototype\Vertical-Prototype\obj\Debug\net5.0-windows\HelpContent.baml

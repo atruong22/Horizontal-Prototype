@@ -51,6 +51,23 @@ namespace Vertical_Prototype
 				this.IngredientsPanel.Children.Add(ingredientDisplay);
 			}
 
+            switch (this.NewRate.Difficulty)
+            {
+				case 3:
+					_difficultyImage.Source = new BitmapImage(new Uri("/images/expertDifficulty.png", UriKind.Relative));
+					break;
+				case 2:
+					_difficultyImage.Source = new BitmapImage(new Uri("/images/hardDifficulty.png", UriKind.Relative));
+					break;
+				case 1:
+					_difficultyImage.Source = new BitmapImage(new Uri("/images/mediumDifficulty.png", UriKind.Relative));
+					break;
+				default:
+					_difficultyImage.Source = new BitmapImage(new Uri("/images/easyDifficulty.png", UriKind.Relative));
+					break;
+            }
+             
+
 			recipeDisplayContent_favoriteButton.Click += (sender, eventArgs) =>
 			{
 				if (init.FavoriteRecipes.Contains(rcp)) //If the recipe is already a favorite and the button is clicked to unfavorite

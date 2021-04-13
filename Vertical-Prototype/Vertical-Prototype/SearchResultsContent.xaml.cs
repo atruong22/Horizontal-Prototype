@@ -38,23 +38,31 @@ namespace Vertical_Prototype
             this.DisplayedRecipes = recipeList;
             this.Init = init;
 
-
-            foreach (Recipe rcp in DisplayedRecipes)
+            if (DisplayedRecipes.Count == 0)
             {
-                Button btn = new Button();
-                btn.Background = Brushes.Transparent;
+                Label lbl = new Label();
+                lbl.Content = "No recipes to display. Try removing some of your filters.";
+                lbl.FontSize = 18;
+                outerPanel.Children.Add(lbl);
+            } else {
 
-                RecipeDisplaySmall _displayCard = new RecipeDisplaySmall(rcp);
-
-                btn.Content = _displayCard;
-                btn.Click += (sender, eventArgs) =>
+                foreach (Recipe rcp in DisplayedRecipes)
                 {
-                    Switcher.SwitchTopPanel(new RecipeHeader(rcp));
-                    Switcher.SwitchContentPanel(new RecipeDisplayContent(this.Init, rcp));
-                };
+                    Button btn = new Button();
+                    btn.Background = Brushes.Transparent;
 
-                outerPanel.Children.Add(btn);
+                    RecipeDisplaySmall _displayCard = new RecipeDisplaySmall(rcp);
 
+                    btn.Content = _displayCard;
+                    btn.Click += (sender, eventArgs) =>
+                    {
+                        Switcher.SwitchTopPanel(new RecipeHeader(rcp));
+                        Switcher.SwitchContentPanel(new RecipeDisplayContent(this.Init, rcp));
+                    };
+
+                    outerPanel.Children.Add(btn);
+
+                }
             }
 
         }

@@ -13,7 +13,7 @@
             <Button x:Name="mainWindow_favoritesButton" Content="Favorites" Background="#4BF248" Height="30" Click="mainWindow_favoritesButton_Click"/>
             <Button x:Name="mainWindow_myRecipesButton" Content="My Recipes" Background="#4BF248" Height="30" Click="mainWindow_myRecipesButton_Click"/>
             <Button x:Name="mainWindow_loginButton" Content="Login" Background="#4BF248" Height="30" Click="mainWindow_loginButton_Click"/>
-            <Button Content="User Guide" Background="#4BF248" Height="30"/>
+            <Button x:Name="mainWindow_helpButton" Content="Help" Background="#4BF248" Height="30" Click="mainWindow_helpButton_Click"/>
         </StackPanel>
 
         <StackPanel x:Name="topPanel" HorizontalAlignment="Left" Height="90" Margin="102,10,0,0" VerticalAlignment="Top" Width="688"/>

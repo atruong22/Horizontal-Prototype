@@ -20,17 +20,21 @@ namespace Vertical_Prototype
     /// </summary>
     public partial class SignInContent : UserControl
     {
-        public SignInContent()
+        public InitRecipes Init { get; set; }
+        public SignInContent(InitRecipes init)
         {
             InitializeComponent();
+            this.Init = init;
             Username.Text = globalvariable.currentLoginUsername;
+            _numCreated.Text = this.Init.UserRecipes.Count().ToString();
+            _numFavorites.Text = this.Init.FavoriteRecipes.Count().ToString();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             globalvariable.loginstatus = 0;
             Switcher.SwitchTopPanel(new LoginHeader());
-            Switcher.SwitchContentPanel(new LoginContent());
+            Switcher.SwitchContentPanel(new LoginContent(this.Init));
         }
     }
 }

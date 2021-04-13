@@ -7,10 +7,15 @@
              mc:Ignorable="d" 
              d:DesignHeight="314" d:DesignWidth="683">
     <Grid Background="#CAF7C9">
-        <TextBlock Text="Username:"  TextWrapping="Wrap" Margin="0,31,422,0" FontWeight="Bold" FontSize="16" HorizontalAlignment="Right" VerticalAlignment="Top"/>
-        <TextBlock Text="__Username__" Name="Username" TextWrapping="Wrap" Margin="0,31,40,0" FontWeight="Bold" FontSize="16" HorizontalAlignment="Right" VerticalAlignment="Top" RenderTransformOrigin="1.931,-1.473" Width="354"/>
-        <TextBlock Text="Confirm Password:" TextWrapping="Wrap" Margin="0,122,361,0" FontWeight="Bold" FontSize="16" HorizontalAlignment="Right" VerticalAlignment="Top"/>
-        <Button Content="Log out" HorizontalAlignment="Left" Margin="273,217,0,0" VerticalAlignment="Top" Click="Button_Click" Width="134" Height="33"/>
+        <TextBlock Text="Username:"  TextWrapping="Wrap" Margin="0,62,354,0" FontWeight="Bold" FontSize="16" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+        <TextBlock Text="__Username__" Name="Username" TextWrapping="Wrap" Margin="0,62,10,0" FontWeight="Bold" FontSize="16" HorizontalAlignment="Right" VerticalAlignment="Top" RenderTransformOrigin="1.931,-1.473" Width="316" Height="38"/>
+        <TextBlock Text="Recipes Created:" TextWrapping="Wrap" Margin="0,100,354,0" FontWeight="Bold" FontSize="16" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+        <TextBlock x:Name="_numCreated" Text="12" TextWrapping="Wrap" Margin="0,100,259,0" FontWeight="Bold" FontSize="16" HorizontalAlignment="Right" VerticalAlignment="Top" Width="62"/>
+
+        <TextBlock Text="Recipes Favorited:" TextWrapping="Wrap" Margin="0,140,354,0" FontWeight="Bold" FontSize="16" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+        <TextBlock x:Name="_numFavorites" Text="12" TextWrapping="Wrap" Margin="0,140,259,0" FontWeight="Bold" FontSize="16" HorizontalAlignment="Right" VerticalAlignment="Top" Width="62"/>
+
+        <Button Content="Log out" HorizontalAlignment="Center" Margin="0,219,0,0" VerticalAlignment="Top" Click="Button_Click" Width="134" Height="33"/>
 
 
 

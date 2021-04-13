@@ -137,14 +137,20 @@ namespace Vertical_Prototype
 			this.Instructions = instructions;
 		}
 
-		public Recipe(string nam)
-		{
-			this.RecipeName = nam;
-			this.Rating = 3;
-			this.Difficulty = 3;
-			this.Time = 15;
-			this.Instructions = "Instructions I guess.........";
-			this.Image = "/images/aglioEOlio.png";
+		//new Recipe("Ratatouille", 3, 3, "ratatouille.png", 60, ratatouilleIngredients, ratatouilletags, ratatouilleInstructions));
+		public Recipe( string name, int rate, int diff, string img, int time, List<(Ingredient, double)> ingredients, string[] tags ,string instructions) {
+			this.NumRating = 1;
+			this.TotalRating = rate;
+			this.RecipeName = name;
+			this.Rating = rate;
+			this.PrintRating = Rating.ToString("0.0");
+			this.Difficulty = diff;
+			this.Time = time;
+			this.Instructions = instructions;
+			this.Image = "/images/" + img;
+			this.recipeIngredients = ingredients;
+			this.Instructions = instructions;
+			this.tags = tags;
 		}
 
 

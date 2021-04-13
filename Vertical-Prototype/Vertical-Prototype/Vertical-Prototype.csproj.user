@@ -19,6 +19,9 @@
     <Compile Update="FavoriteRecipesContent.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="HelpContent.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="HomePageContent.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -82,6 +85,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="FavoriteRecipesContent.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="HelpContent.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="HomePageContent.xaml">

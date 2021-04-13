@@ -7,7 +7,7 @@
 			 mc:Ignorable="d" 
 			 d:DesignHeight="90" d:DesignWidth="688">
     <Grid x:Name="texty" Background="#CAF7C9">
-        <TextBox x:Name="searchBar_textBox" TextWrapping="Wrap" Height="31" Margin="10,10,263,49"/>
+        <TextBox x:Name="searchBar_textBox" TextWrapping="Wrap" Height="31" Margin="10,10,263,49" KeyDown="searchBar_textBox_KeyDown"/>
         <Button x:Name="searchBar_searchButton" HorizontalAlignment="Left" Height="31" Margin="425,10,0,0" VerticalAlignment="Top" Width="74" Click="searchBar_searchButton_Click">
             <Image x:Name="ChefHat" Source="/images/SearchIcon.png"/>
         </Button>

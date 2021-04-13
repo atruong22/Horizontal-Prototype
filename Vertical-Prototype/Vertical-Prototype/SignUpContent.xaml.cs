@@ -20,10 +20,12 @@ namespace Vertical_Prototype
     /// </summary>
     public partial class SignUpContent : UserControl
     {
-        public SignUpContent()
+        public InitRecipes Init { get; set; }
+        public SignUpContent(InitRecipes init)
         {
             InitializeComponent();
             passwordmatchtips.Visibility = Visibility.Hidden;
+            this.Init = init;
         }
 
         private void loginContent_signUpButton_Click1(object sender, RoutedEventArgs e)
@@ -38,7 +40,7 @@ namespace Vertical_Prototype
                 globalvariable.currentLoginUsername= username;
                 globalvariable.currentLoginUserPassword = password;
                 Switcher.SwitchTopPanel(new LoginHeader());
-                Switcher.SwitchContentPanel(new LoginContent());
+                Switcher.SwitchContentPanel(new LoginContent(this.Init));
             }
             else
             {
@@ -54,7 +56,7 @@ namespace Vertical_Prototype
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Switcher.SwitchTopPanel(new LoginHeader());
-            Switcher.SwitchContentPanel(new LoginContent());
+            Switcher.SwitchContentPanel(new LoginContent(this.Init));
         }
     }
 }

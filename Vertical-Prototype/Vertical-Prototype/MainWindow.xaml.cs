@@ -24,9 +24,9 @@ namespace Vertical_Prototype
 
         //Initialize all the pages
 
-        LoginHeader _loginHeader = new LoginHeader();
+        //LoginHeader _loginHeader = new LoginHeader();
 
-        LoginContent _loginContent = new LoginContent();
+        //LoginContent _loginContent = new LoginContent(this.Init);
 
 
         public MainWindow()
@@ -90,13 +90,19 @@ namespace Vertical_Prototype
             if (globalvariable.loginstatus == 0)
             {
                 Switcher.SwitchTopPanel(new LoginHeader());
-                Switcher.SwitchContentPanel(new LoginContent());
+                Switcher.SwitchContentPanel(new LoginContent(this.Init));
             }
             else
             {
                 Switcher.SwitchTopPanel(new SignInHeader());
-                Switcher.SwitchContentPanel(new SignInContent());
+                Switcher.SwitchContentPanel(new SignInContent(this.Init));
             }
+        }
+
+        private void mainWindow_helpButton_Click(object sender, RoutedEventArgs e)
+        {
+            Switcher.SwitchTopPanel(new SearchBar(this.Init));
+            Switcher.SwitchContentPanel(new HelpContent());
         }
     }
 }

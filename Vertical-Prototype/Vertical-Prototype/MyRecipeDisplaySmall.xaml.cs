@@ -37,6 +37,22 @@ namespace Vertical_Prototype
             this.DataContext = this.MyRecipe;
             this.Init = init;
             _prepTimeText.Content = TimeStringFormat.GenerateString(this.MyRecipe.Time);
+
+            switch (rcp.Difficulty)
+            {
+                case 3:
+                    _difficultyImage.Source = new BitmapImage(new Uri("/images/expertDifficulty.png", UriKind.Relative));
+                    break;
+                case 2:
+                    _difficultyImage.Source = new BitmapImage(new Uri("/images/hardDifficulty.png", UriKind.Relative));
+                    break;
+                case 1:
+                    _difficultyImage.Source = new BitmapImage(new Uri("/images/mediumDifficulty.png", UriKind.Relative));
+                    break;
+                default:
+                    _difficultyImage.Source = new BitmapImage(new Uri("/images/easyDifficulty.png", UriKind.Relative));
+                    break;
+            }
         }
 
         private void MyRecipeEditButon_Click(object sender, RoutedEventArgs e)
