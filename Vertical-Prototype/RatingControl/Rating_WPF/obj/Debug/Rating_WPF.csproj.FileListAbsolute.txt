@@ -24,3 +24,16 @@ C:\Users\Wheel-E\Documents\Winter2021\HCI\PROJECT\Horizontal-Prototype\Vertical-
 C:\Users\Wheel-E\Documents\Winter2021\HCI\PROJECT\Horizontal-Prototype\Vertical-Prototype\RatingControl\Rating_WPF\obj\Debug\Rating_WPF.csproj.CoreCompileInputs.cache
 C:\Users\Wheel-E\Documents\Winter2021\HCI\PROJECT\Horizontal-Prototype\Vertical-Prototype\RatingControl\Rating_WPF\obj\Debug\Rating_WPF.exe
 C:\Users\Wheel-E\Documents\Winter2021\HCI\PROJECT\Horizontal-Prototype\Vertical-Prototype\RatingControl\Rating_WPF\obj\Debug\Rating_WPF.pdb
+C:\Users\hasee\Desktop\cpsc481\Horizontal-Prototype\Vertical-Prototype\RatingControl\Rating_WPF\bin\Debug\Rating_WPF.exe
+C:\Users\hasee\Desktop\cpsc481\Horizontal-Prototype\Vertical-Prototype\RatingControl\Rating_WPF\bin\Debug\Rating_WPF.pdb
+C:\Users\hasee\Desktop\cpsc481\Horizontal-Prototype\Vertical-Prototype\RatingControl\Rating_WPF\obj\Debug\Rating_WPF.csprojAssemblyReference.cache
+C:\Users\hasee\Desktop\cpsc481\Horizontal-Prototype\Vertical-Prototype\RatingControl\Rating_WPF\obj\Debug\MainWindow.baml
+C:\Users\hasee\Desktop\cpsc481\Horizontal-Prototype\Vertical-Prototype\RatingControl\Rating_WPF\obj\Debug\MainWindow.g.cs
+C:\Users\hasee\Desktop\cpsc481\Horizontal-Prototype\Vertical-Prototype\RatingControl\Rating_WPF\obj\Debug\App.g.cs
+C:\Users\hasee\Desktop\cpsc481\Horizontal-Prototype\Vertical-Prototype\RatingControl\Rating_WPF\obj\Debug\Rating_WPF_MarkupCompile.cache
+C:\Users\hasee\Desktop\cpsc481\Horizontal-Prototype\Vertical-Prototype\RatingControl\Rating_WPF\obj\Debug\Rating_WPF.g.resources
+C:\Users\hasee\Desktop\cpsc481\Horizontal-Prototype\Vertical-Prototype\RatingControl\Rating_WPF\obj\Debug\Rating_WPF.Properties.Resources.resources
+C:\Users\hasee\Desktop\cpsc481\Horizontal-Prototype\Vertical-Prototype\RatingControl\Rating_WPF\obj\Debug\Rating_WPF.csproj.GenerateResource.cache
+C:\Users\hasee\Desktop\cpsc481\Horizontal-Prototype\Vertical-Prototype\RatingControl\Rating_WPF\obj\Debug\Rating_WPF.csproj.CoreCompileInputs.cache
+C:\Users\hasee\Desktop\cpsc481\Horizontal-Prototype\Vertical-Prototype\RatingControl\Rating_WPF\obj\Debug\Rating_WPF.exe
+C:\Users\hasee\Desktop\cpsc481\Horizontal-Prototype\Vertical-Prototype\RatingControl\Rating_WPF\obj\Debug\Rating_WPF.pdb

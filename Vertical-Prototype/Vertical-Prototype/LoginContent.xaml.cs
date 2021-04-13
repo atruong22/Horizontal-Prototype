@@ -57,5 +57,10 @@ namespace Vertical_Prototype
             
             
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

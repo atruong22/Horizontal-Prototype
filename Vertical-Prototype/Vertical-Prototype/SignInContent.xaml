@@ -15,7 +15,8 @@
         <TextBlock Text="Recipes Favorited:" TextWrapping="Wrap" Margin="0,140,354,0" FontWeight="Bold" FontSize="16" HorizontalAlignment="Right" VerticalAlignment="Top"/>
         <TextBlock x:Name="_numFavorites" Text="12" TextWrapping="Wrap" Margin="0,140,259,0" FontWeight="Bold" FontSize="16" HorizontalAlignment="Right" VerticalAlignment="Top" Width="62"/>
 
-        <Button Content="Log out" HorizontalAlignment="Center" Margin="0,219,0,0" VerticalAlignment="Top" Click="Button_Click" Width="134" Height="33"/>
+        <Button Content="Log out" HorizontalAlignment="Left" Margin="341,219,0,0" VerticalAlignment="Top" Click="Button_Click" Width="134" Height="33"/>
+        <Button Content="Password Changed" HorizontalAlignment="Left" Margin="138,219,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.454,0.036" Width="124" Height="33"/>
 
 
 
