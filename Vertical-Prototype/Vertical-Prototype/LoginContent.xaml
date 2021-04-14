@@ -14,6 +14,7 @@
         <Button x:Name="loginContent_loginButton" Content="Login" HorizontalAlignment="Center" Height="34" VerticalAlignment="Top" Width="141" FontSize="16" FontWeight="Bold" Margin="0,126,0,0" Click="loginContent_signUpButton_Click1"/>
         <Button x:Name="loginContent_signUpButton" Content="New User? Sign Up Here" HorizontalAlignment="Center" Height="30" Margin="0,183,0,0" VerticalAlignment="Top" Width="243" FontSize="14" FontWeight="Bold" Click="loginContent_signUpButton_Click"/>
         <TextBlock HorizontalAlignment="Left" Name="wrongpasswordtips"  Margin="498,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="38"><Run Text="Wrong password"/><Run Text="!"/><LineBreak/><Run Language="zh-cn" Text="Please try again!"/></TextBlock>
+        <Button Content="Forget Password?" HorizontalAlignment="Center" Margin="0,238,0,0" VerticalAlignment="Top" Height="30" Width="141" Click="Button_Click"/>
 
 
     </Grid>
