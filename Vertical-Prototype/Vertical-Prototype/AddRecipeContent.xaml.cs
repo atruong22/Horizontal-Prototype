@@ -48,6 +48,9 @@ namespace Vertical_Prototype
 
                 this.IngredientsPanel.Children.Add(ingredientDisplay);
             }
+            _recipePhoto.Source = new BitmapImage(new Uri(this.NewRecipe.Image, UriKind.Relative));
+         
+
         }
 
         private void SaveRecipeButton_Click(object sender, RoutedEventArgs e)
@@ -108,8 +111,8 @@ namespace Vertical_Prototype
 
         private void addRecipeContent_addPhotoButton_Click(object sender, RoutedEventArgs e)
         {
-            _recipePhoto.Source = new BitmapImage(new Uri("/images/ChefHat.png", UriKind.Relative));
-            this.NewRecipe.Image = "images/ChefHat.png";
+            _recipePhoto.Source = new BitmapImage(new Uri("/images/chocolateChipCookies.jpg", UriKind.Relative));
+            this.NewRecipe.Image = "images/chocolateChipCookies.jpg";
         }
     }
 }

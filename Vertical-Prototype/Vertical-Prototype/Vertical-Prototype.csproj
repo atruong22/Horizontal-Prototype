@@ -13,6 +13,7 @@
     <None Remove="images\aglioEOlio.png" />
     <None Remove="images\bananasmoothie.png" />
     <None Remove="images\ChefHat.png" />
+    <None Remove="images\chocolateChipCookies.jpg" />
     <None Remove="images\easyDifficulty.png" />
     <None Remove="images\editButton.png" />
     <None Remove="images\expertDifficulty.png" />
@@ -58,6 +59,7 @@
     <Resource Include="images\aglioEOlio.png" />
     <Resource Include="images\bananasmoothie.png" />
     <Resource Include="images\ChefHat.png" />
+    <Resource Include="images\chocolateChipCookies.jpg" />
     <Resource Include="images\easyDifficulty.png" />
     <Resource Include="images\editButton.png" />
     <Resource Include="images\expertDifficulty.png" />

@@ -37,6 +37,7 @@
             <ComboBoxItem Content=""/>
             <ComboBoxItem Content="American"/>
             <ComboBoxItem Content="Chinese"/>
+            <ComboBoxItem Content="French"/>
             <ComboBoxItem Content="Indian"/>
             <ComboBoxItem Content="Italian"/>
             <ComboBoxItem Content="Japanese"/>

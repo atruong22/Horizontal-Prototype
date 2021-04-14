@@ -23,6 +23,19 @@ namespace Vertical_Prototype
             this.FavoriteRecipes = new List<Recipe>();
             this.UserRecipes = new List<Recipe>();
 
+            //Cookie ingredients for demo
+            this.AllIngredients.Add(new Ingredient("Butter", "cup(s)", 1628, 184.12, 0.14, 1.93));
+            this.AllIngredients.Add(new Ingredient("White Sugar", "cup(s)", 774, 0, 199.96, 0));
+            //this.AllIngredients.Add(new Ingredient("Brown Sugar", "cup(s)", 547, 0, 141.13, 0));
+            this.AllIngredients.Add(new Ingredient("Eggs", "", 74, 4.97, 0.38, 6.29));
+            this.AllIngredients.Add(new Ingredient("Vanilla Extract", "tsp", 12, 0, 0.53, 0));
+            this.AllIngredients.Add(new Ingredient("Baking soda", "tsp", 0, 0, 0, 0));
+            this.AllIngredients.Add(new Ingredient("Water", "cup(s)", 0, 0, 0, 0));
+            this.AllIngredients.Add(new Ingredient("Salt", "tsp", 0, 0, 0, 0));
+            this.AllIngredients.Add(new Ingredient("All-Purpose Flour", "cup(s)", 400, 0, 88, 12));
+            this.AllIngredients.Add(new Ingredient("Chocolate Chips", "cup(s)", 16 * 70, 16 * 4, 160, 16));
+
+
             //Aglio
             //public Recipe(string name, int rate, int diff, string img, int time, List<(Ingredient, int)> ingredients, string instructions)
             List<(Ingredient, double)> aglioIngredinets = new List<(Ingredient, double)>();
@@ -81,9 +94,9 @@ namespace Vertical_Prototype
 
             string[] ratatouilletags = new string[] { "recipe", "Ratatouille", "French", "Hard", "Eggplants", "Roma Tomatoes", "Yellow Squash", "Zucchini", "Basil", "Thyme", "Parsley", "Vegetarian", "Vegan" };
 
-            string ratatouilleInstructions = "1.Preheat the oven for 375˚F (190˚C).\n" + "2.Slice the eggplant, tomatoes, squash, and zucchini into approximately ¹⁄₁₆-inch (1-mm) rounds, then set aside.\n" + "3.Make the sauce: Heat the olive oil in a 12-inch (30-cm) oven-safe pan over medium-high heat. Sauté the onion, garlic, and bell peppers until soft, about 10 minutes. Season with salt and pepper, then add the crushed tomatoes. Stir until the ingredients are fully incorporated. Remove from heat, then add the basil. Stir once more, then smooth the surface of the sauce with a spatula.\n" +
-            "4.Arrange the sliced veggies in alternating patterns, (for example, eggplant, tomato, squash, zucchini) on top of the sauce from the outer edge to the middle of the pan. Season with salt and pepper.\n" + "5.Make the herb seasoning: In a small bowl, mix together the basil, garlic, parsley, thyme, salt, pepper, and olive oil. Spoon the herb seasoning over the vegetables.\n"
-            + "6.Cover the pan with foil and bake for 40 minutes. Uncover, then bake for another 20 minutes, until the vegetables are softened.\n" + "7.Serve while hot as a main dish or side. The ratatouille is also excellent the next day--cover with foil and reheat in a 350˚F (180˚C) oven for 15 minutes, or simply microwave to desired temperature.\n";
+            string ratatouilleInstructions = "1. Preheat the oven for 375˚F (190˚C).\n\n" + "2. Slice the eggplant, tomatoes, squash, and zucchini into approximately ¹⁄₁₆-inch (1-mm) rounds, then set aside.\n\n" + "3. Make the sauce: Heat the olive oil in a 12-inch (30-cm) oven-safe pan over medium-high heat. Sauté the onion, garlic, and bell peppers until soft, about 10 minutes. Season with salt and pepper, then add the crushed tomatoes. Stir until the ingredients are fully incorporated. Remove from heat, then add the basil. Stir once more, then smooth the surface of the sauce with a spatula.\n\n" +
+            "4. Arrange the sliced veggies in alternating patterns, (for example, eggplant, tomato, squash, zucchini) on top of the sauce from the outer edge to the middle of the pan. Season with salt and pepper.\n\n" + "5. Make the herb seasoning: In a small bowl, mix together the basil, garlic, parsley, thyme, salt, pepper, and olive oil. Spoon the herb seasoning over the vegetables.\n\n"
+            + "6. Cover the pan with foil and bake for 40 minutes. Uncover, then bake for another 20 minutes, until the vegetables are softened.\n\n" + "7. Serve while hot as a main dish or side. The ratatouille is also excellent the next day--cover with foil and reheat in a 350˚F (180˚C) oven for 15 minutes, or simply microwave to desired temperature.\n\n";
 
             //Quesadillas
             List<(Ingredient, double)> quesadillaIngredients = new List<(Ingredient, double)>();
@@ -285,13 +298,15 @@ namespace Vertical_Prototype
             this.AllRecipes.Add(new Recipe("Creme Brulee", 4, 2, "cremebrulee.png", 70, cremeBruleeIngredients, cremeBruleetags, cremeBruleeInstructions));
             this.AllRecipes.Add(new Recipe("Creamy Bacon Hasselback Chicken", 4, 3, "creamybacon.png", 60, creamyBaconChickenIngredients, creamyBaconChickentags, creamyBaconChickenInstructions));
             this.AllRecipes.Add(new Recipe("Pumpkin Bread", 4, 2, "pumpkinbread.png", 70, pumpkinBreadIngredients, pumpkinBreadtags, pumpkinBreadInstructions));
-            Recipe ratRcp = new Recipe("Ratatouille", 3, 2, "ratatouille.png", 60, ratatouilleIngredients, ratatouilletags, ratatouilleInstructions);
-            this.AllRecipes.Add(ratRcp);
+            
             this.AllRecipes.Add(new Recipe("Banana Oat Smoothie", 2, 1, "bananasmoothie.png", 15, bananaSmoothieIngredients, bananaSmoothietags, bananaSmoothieInstructions));
-            this.AllRecipes.Add(new Recipe("Cookies and Cream", 5, 1,"cookiesandcream.png",135, cookiesAndCreamIngredients, cookiesAndCreamtags, cookiesAndCreamInstructions));
+            Recipe cookiesCreamRcp = new Recipe("Cookies and Cream", 4, 1, "cookiesandcream.png", 135, cookiesAndCreamIngredients, cookiesAndCreamtags, cookiesAndCreamInstructions);
+            this.AllRecipes.Add(cookiesCreamRcp);
             this.AllRecipes.Add(new Recipe("Grilled Cheese", 4, 1, "grilledcheese.png", 10, grilledCheeseIngredients, grilledCheesetags, grilledCheeseInstructions));
             this.AllRecipes.Add(new Recipe("Spaghetti with Garlic and Oil Pasta", 3, 2, "spaghetti2.jpg", 30, spaghettiIngredients, spaghettitags, spaghettiInstructions));
             this.AllRecipes.Add(new Recipe("Cheesy Egg Toast", 4, 1, "eggtoast.png", 30, eggToastIngredients, eggToastags, eggToastInstructions));
+            Recipe ratRcp = new Recipe("Ratatouille", 5, 2, "ratatouille.png", 70, ratatouilleIngredients, ratatouilletags, ratatouilleInstructions);
+            this.AllRecipes.Add(ratRcp);
             this.AllRecipes.Add(new Recipe("Strawberry Sorbet", 4, 1, "strawberrySorbet2.jpg", 15, strawberrySorbetIngredients, strawberrySorbetags, strawberrySorbetInstructions));
             this.AllRecipes.Add(new Recipe("Whipped Coffee", 3, 0, "coffee.png", 15, coffeeIngredients, coffeetags, coffeeInstructions));
             Recipe aglioRcp = new Recipe("Pasta Aglio E Olio", 4, 1, "aglioEOlio.png", 30, aglioIngredinets, agliotags, aglioInstructions);
@@ -302,17 +317,14 @@ namespace Vertical_Prototype
             this.AllRecipes.Add(new Recipe("Bean And Cheese Toaster Quesadilla", 4, 1, "quesadilla.png", 25, quesadillaIngredients, quesadillatags, quessadillaInstructions));
 
             //Featured Recipes
-            this.FeaturedRecipes.Add(ratRcp);
-            this.FeaturedRecipes.Add(aglioRcp);
+            //this.FeaturedRecipes.Add(ratRcp);    
             this.FeaturedRecipes.Add(teriyakiRcp);
+            this.FeaturedRecipes.Add(aglioRcp);
+            this.FeaturedRecipes.Add(cookiesCreamRcp);
 
 
 
             //Optional My recipes.
         }
-
-
-
-
     }
 }
