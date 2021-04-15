@@ -6,9 +6,8 @@
       "version": "5.0.0"
     },
     "additionalProbingPaths": [
-      "C:\\Users\\hasee\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\hasee\\.nuget\\packages",
-      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      "C:\\Users\\Wheel-E\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Wheel-E\\.nuget\\packages"
     ],
     "configProperties": {
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
